@@ -4,9 +4,6 @@
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="layout.css">
         <title>Kiernan Lincoln, Software Engineer & Business Analyst</title>   
-        <h1>
-            <div class ="homeNameplate">Kiernan Lincoln</div>
-        </h1>
     </head>    
 
     <body>
@@ -18,14 +15,22 @@
            <li><a href="#articles">ARTICLES</a></li> 
            <li><a href="#projects">PROJECTS</a></li> 
            <li><a href="#contact">CONTACT</a></li> 
+           <li><a href="#linkedin">linkedin</a></li> 
+           <li><a href="#github">github</a></li> 
+           <li><a href="#instagram">instagram</a></li> 
         </ul>
         
         <h1>
-            <div class ="homeClassification">
+            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="hidden shrink-0 grow-0 self-center text-omega-500 md:block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path fill="none" stroke-linecap="square" stroke-miterlimit="10" stroke-width="48" d="M184 112l144 144-144 144"></path>
+            </svg>
+            <span class="animate-typewriter overflow-hidden whitespace-nowrap">Kiernan Lincoln</span>
+            <div class="ml-2 -translate-y-2 animate-blink">_</div>
+        </h1>
+        <h1>
                 <em>Web Developer</em>
                 <span>&</span> 
                 <em>Business Analyst</em>
-            </div>
         </h1>
         <h3>
             <div class ="homeProfessionalSummary">
@@ -38,16 +43,30 @@
                 </p>
             </div>
         </h3>
-        <!--insert array code sample overlay block:
-        
-            const services=[
-                'UI/UX Design'
-                'Web Development'
-                'Mobile App Development'
-                'Data Analysis'
-            ]
-            if (have_a_project) navigate('/contact')
-         -->
+        <div class="aboutPicture">
+            <img src ="./images/KiernanLincoln-Resume.jpg">
+        </div>
+
+<!--insert array code sample overlay block: 
+<P>
+const services=[
+    'UI/UX Design'
+    'Web Development'
+    'Mobile App Development'
+    'Data Analysis'
+]
+if (have_a_project) navigate('/contact')
+</P> -->
+<code class="language-js code-highlight"><span class="code-line line-number" line="1"><span class="token keyword">const</span> services <span class="token operator">=</span> <span class="token punctuation">[</span>
+</span><span class="code-line line-number highlight-line" line="2">  <span class="token string">'UI/UX Design'</span>
+</span><span class="code-line line-number highlight-line" line="3">  <span class="token string">'Web Development'</span>
+</span><span class="code-line line-number highlight-line" line="4">  <span class="token string">'Mobile App Development'</span>
+</span><span class="code-line line-number highlight-line" line="5">  <span class="token string">'Data Analysis and BI Development'</span>
+</span><span class="code-line line-number highlight-line" line="6">  <span class="token string">'Consulting'</span>
+</span><span class="code-line line-number" line="7"><span class="token punctuation">]</span>
+</span><span class="code-line line-number" line="8"><span class="token keyword control-flow">if</span> <span class="token punctuation">(</span>have_a_project<span class="token punctuation">)</span> <span class="token function">navigate</span><span class="token punctuation">(</span><span class="token string">'/contact'</span><span class="token punctuation">)</span>
+</span></code>
+
 
         <div class ="homeKPI justify-center">
             <div class ="homeYOE">
@@ -75,10 +94,21 @@
         </p>
 
         <h4 class="homeTrustedBy">Trusted By</h4>
-        <div class="homeTrustedByEmployer1"><!--insert logo image and name--></div>
-        <div class="homeTrustedByEmployer2"><!--insert logo image and name--></div>
-        <div class="homeTrustedByEmployer3"><!--insert logo image and name--></div>
-        <div class="homeTrustedByEmployer4"><!--insert logo image and name--></div>
+            <div class="homeTrustedByEmployer1">
+                <img src='./images/Wipro-CAPCO-logo.png' width ="301" height="167">
+            </div>
+            <div class="homeTrustedByEmployer2">
+                <img src='./images/Santander-Logo.png' width ="379" height="133">
+            </div>
+            <div class="homeTrustedByEmployer3">
+                <img src='./images/SVB-Logo.png' width ="258" height="195">
+            </div>
+            <div class="homeTrustedByEmployer4">
+                <img src='./images/iHerb-Symbol.png' width ="384" height="216">
+            </div>
+            <div class="homeTrustedByEmployer5">
+                <img src='./images/CA-Gov-Logo-and-bear.png' width ="406" height ="143">
+        </div>
 
 
         <!--homepage would be ">Kiernan Lincoln_ (blinking underscore like code)
@@ -89,11 +119,7 @@
         
 
         <!--
-    <div class="about">
-        <h2>About</h2>
-        <img src ="./images/KiernanLincoln-Resume.jpg">
-    </div>
-    </br>
+    
 
     <div class="services">
         <h2>Services</h2>

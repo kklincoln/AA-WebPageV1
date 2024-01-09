@@ -1,18 +1,64 @@
-
-.body{
-    margin: .67em 0;
-}
-
 html{
     --color-alpha: 202 254 0;
     --color-beta: 34 297 94;
     --color-accent: 59 130 246;
     --color-omega: 113 113 122;
+    background: rgb(54,54,54) ;
+}
+.body{
+    margin: .67em 0;
+    line-height: inherit;
+}
+
+h1 {
+    display: block;
+    margin-top: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: futura-pt;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 32 px;
+    letter-spacing: .03929825em;
+    text-transform: none;
+    line-height: .9em;
+    color: #fff;
+}
+h2 {
+    display: block;
 }
 
 h1 h2 h3{
     text-rendering: optimizeLegibility;
     margin: .67em 0;
+}
+/*conditional coding establishing the green headers or gradient coloring*/
+:is(h1,h2,h3,h4,h5,h6)>em {
+    font-style: normal;
+    background-image: linear-gradient(to bottom right,var(--tw-gradient-stops));
+    --tw-gradient-from: rgb(var(--color-alpha)/1);
+    --tw-gradient-to: rgb(var(--color-alpha)/0);
+    --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to);
+    --tw-gradient-to: rgb(var(--color-beta)/1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.navbar{
+    font-family: futura-pt;
+    font-weight: 400;
+    font-style: strong;
+    font-size: 17px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+div{
+    display:block;
+}
+
+.text-center{
+    text-align: center;
 }
 
 /*unordered list coding intended to be used upon navbar coding for veritical orientation*/
@@ -34,7 +80,7 @@ li a{
 }
 /*change link color on hover for navbar li a*/
 li a:hover{
-    background-color: rgb(red, green, blue);
+    background-color: rgb(05,25,255);
 }
 
 /*this controls the time taken to display the hovered navbar item description
@@ -52,55 +98,45 @@ cuubic-bezier does a squish then compress effect*/
     transition-duration: .15s;
 }
 
-/*to be used for navbar tile that is not active (white text, black shading)*/
-.text-white{
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 /var(--tw-text-opacity));
+
+/*formatting the code sample appearing on the homepage*/
+code{
+    background: var(--tw-prose-pre-bg);
 }
 
-/*to be used for navbar tile that is active (black text, green shading)*/
-.text-black{
-    --tw-text-opacity: 1;
-    color:rgb(0 0 0 /var(--tw-text-opacity));
+.code-highlight{
+
+}
+.code-line{
+    display:block;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-left: -14px;
+    margin-right: -14px;
+    border-left-width: 4px;
+    border-left-color: rgba(31, 41, 55, 0)
 }
 
-/*to be used for the standard navbar tile colors, black, white text*/
-.to-alpha{
-    --tw-gradient-to: rgb(var(--color-alpha)/1);
+.line-number{
+
 }
 
-/*to be used for the selected navbar tile colors, green, black text*/
-.from-beta{
-    --tw-gradient-from: rgb(var(--color-beta)/1);
-    --tw-gradient-to: rgb(var(--color-beta)/0);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+.highlight-line{
+
 }
 
-
-h1 headers{
-    display: block;
-    margin-top: 0;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-family: futura-pt;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 32 px;
-    letter-spacing: .03929825em;
-    text-transform: none;
-    line-height: .9em;
-    color: #fff;
+code[class*=language-], pre[class*=language-] {
+    text-align: left;
+    white-space: pre;
+    word-spacing:normal;
+    word-break:normal;
+    word-wrap:normal;
+    color: #eee;
+    background: #2f2f2f;
+    font-family: roboto mono, monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+    tab-size:4; 
+    hyphens: none;
 }
 
-h2 headers{
-    display: block;
-}
-
-navbar{
-    font-family: futura-pt;
-    font-weight: 400;
-    font-style: strong;
-    font-size: 17px;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-}
