@@ -2,7 +2,8 @@
 <html lang ="en-US">
     <head>
         <meta charset="utf-8">
-         <title>Kiernan Lincoln, Software Engineer & Business Analyst</title>   
+        <link rel="stylesheet" type="text/css" href="layout.css">
+        <title>Kiernan Lincoln, Software Engineer & Business Analyst</title>   
         <h1>
             <div class ="homeNameplate">Kiernan Lincoln</div>
         </h1>
@@ -10,15 +11,14 @@
 
     <body>
         <!--## **** html Navigation bar to be added to each page ****** ##-->
-        <div class="topnav">
-            <a class="active" href ="#home">HOME</a>
-            <a href="#about">ABOUT</a>   
-            <a href="#services">SERVICES</a>   
-            <a href="#articles">ARTICLES</a>
-            <a href="#projects">PROJECTS</a>
-            <a href="#contact">CONTACT</a>
-        </div>
-        </br>
+        <ul>
+           <li><a class="active" href ="#home">HOME</a></li> 
+           <li><a href="#about">ABOUT</a></li> 
+           <li><a href="#services">SERVICES</a></li>  
+           <li><a href="#articles">ARTICLES</a></li> 
+           <li><a href="#projects">PROJECTS</a></li> 
+           <li><a href="#contact">CONTACT</a></li> 
+        </ul>
         
         <h1>
             <div class ="homeClassification">
@@ -38,6 +38,16 @@
                 </p>
             </div>
         </h3>
+        <!--insert array code sample overlay block:
+        
+            const services=[
+                'UI/UX Design'
+                'Web Development'
+                'Mobile App Development'
+                'Data Analysis'
+            ]
+            if (have_a_project) navigate('/contact')
+         -->
 
         <div class ="homeKPI justify-center">
             <div class ="homeYOE">
@@ -54,12 +64,21 @@
                 <h2 class="homeOpenSourceLibrariesDigit"># </h2>
                 <div class="text-white">OpenSource Libraries</div>
             </div>
-        </br>
+
         </div>
-            <div class ="homeDownloadResumeButton">
-                <button type="download">Download Resume</button>
-            </div>
+
+        <div class ="homeDownloadResumeButton">
+                <button type="download"><p>Download Resume</p></button>
         </div>
+        <p>
+            <a class="" href="/contact">Get in Touch</a>
+        </p>
+
+        <h4 class="homeTrustedBy">Trusted By</h4>
+        <div class="homeTrustedByEmployer1"><!--insert logo image and name--></div>
+        <div class="homeTrustedByEmployer2"><!--insert logo image and name--></div>
+        <div class="homeTrustedByEmployer3"><!--insert logo image and name--></div>
+        <div class="homeTrustedByEmployer4"><!--insert logo image and name--></div>
 
 
         <!--homepage would be ">Kiernan Lincoln_ (blinking underscore like code)

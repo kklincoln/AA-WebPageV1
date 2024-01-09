@@ -1,0 +1,106 @@
+
+.body{
+    margin: .67em 0;
+}
+
+html{
+    --color-alpha: 202 254 0;
+    --color-beta: 34 297 94;
+    --color-accent: 59 130 246;
+    --color-omega: 113 113 122;
+}
+
+h1 h2 h3{
+    text-rendering: optimizeLegibility;
+    margin: .67em 0;
+}
+
+/*unordered list coding intended to be used upon navbar coding for veritical orientation*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    width: 150px;
+    background-color: rgb(24, 24, 27)
+}
+/*this li a is referencing the NavBar formatting
+click will be block style; white font; text will be adjusted to the right 8px; 
+*/
+li a{  
+    display: block;
+    color:rgb(255 255 255 )  ;
+    padding: 8px;   
+    text-decoration: none;
+}
+/*change link color on hover for navbar li a*/
+li a:hover{
+    background-color: rgb(red, green, blue);
+}
+
+/*this controls the time taken to display the hovered navbar item description
+, e.g.: hover over house icon to show "home", briefcase to show "Projects", envelope for "contact"*/
+.duration-300{
+    transition-duration: .43s;
+}
+
+/*transition properties for the nav buttons;
+transition property all means all effects (shrink, shade, squish) happen at once
+cuubic-bezier does a squish then compress effect*/
+.transition-all{
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+}
+
+/*to be used for navbar tile that is not active (white text, black shading)*/
+.text-white{
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 /var(--tw-text-opacity));
+}
+
+/*to be used for navbar tile that is active (black text, green shading)*/
+.text-black{
+    --tw-text-opacity: 1;
+    color:rgb(0 0 0 /var(--tw-text-opacity));
+}
+
+/*to be used for the standard navbar tile colors, black, white text*/
+.to-alpha{
+    --tw-gradient-to: rgb(var(--color-alpha)/1);
+}
+
+/*to be used for the selected navbar tile colors, green, black text*/
+.from-beta{
+    --tw-gradient-from: rgb(var(--color-beta)/1);
+    --tw-gradient-to: rgb(var(--color-beta)/0);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+
+h1 headers{
+    display: block;
+    margin-top: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: futura-pt;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 32 px;
+    letter-spacing: .03929825em;
+    text-transform: none;
+    line-height: .9em;
+    color: #fff;
+}
+
+h2 headers{
+    display: block;
+}
+
+navbar{
+    font-family: futura-pt;
+    font-weight: 400;
+    font-style: strong;
+    font-size: 17px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
