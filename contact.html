@@ -1,14 +1,127 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <h2>Contact</h2>
-        <h1>REACH OUT TO ME</h1>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="layout.css">
+        <title>Contact Kiernan Lincoln</title>
+        <h3>Get in touch</h3>
+        <h3>
+            <em>Let's talk about your project
+            </em>
+        </h3>
     </head>
 
     <body>
+        <P>
+            In search of a Data Analyst, Software Developer, or just want to connect? Feel free to reach out!
+            </br>
+            </br>
+            Please use the form on this page or get in touch through the methods listed below.
+        </P>
+            <small>
+                <p>
+                    <div class ="contactPhone"></div>
+                    Phone logo "Phone: (760) ###-#### "
+                </p>      
+                <p>
+                    <div class ="contactEmail"></div>
+                    Email logo "Email: "
+                       <a href="mailto:Inquiries@KiernanLincoln.com" class ="border-b border-alpha hover:border-b-2" rel="nofollow" target="_blank">Inquiries@KiernanLincoln.com</a>
+                </p>
+                <p>
+                    <div class ="contactLinkedIn"></div>
+                    LinkedIn logo "LinkedIn: "
+                        <a href="https://www.linkedin.com/in/kiernan-lincoln/" class ="border-b border-alpha hover:border-b-2" rel="nofollow" target="_blank">Kiernan-Lincoln</a>
+                </p>            
+            </small>
+            <!--overall section for the forms html in contact page -->
+            <div class ="contactForm bg-gradient-omega-900">
+
+            <!--First quadrant of the form, groups the customer information together-->
+                <fieldset class="border-b border-dashed border-omega-700">
+                    <!--first quadrant subsection for the forms legend-->
+                    <div class="bg-omega-800 p-5">
+                        <legend class="m-0 p-0">Your Contact Information</legend>
+                    </div>
+                    
+                    <!--first quadrant subection for the customer input-->
+                    <div class="contactFormCustomer grid gap-2 p-5 md:grid-cols-3">
+                        <!--subsection for text boxes: customer information -->
+                        <fieldset class="contactFormCustomerInfo">
+                                <!--customer first name-->
+                                <div class ="flex items-center">
+                                    <input type ="text" name="first-name" autocomplate="given-name" class="block w-full border-0 py-3 px-4 border-b bg-omega-700/20 placeholder-omega-400 border-accent focus:ring-accent-500" placeholder="First name" required> 
+                                </div>
+                                <!--customer last name-->
+                                <div class ="flex items-center">
+                                    <input type="text" name="last-name" autocomplete="family-name" class="block w-full border-0 py-3 px-4 border-b bg-omega-700/20 placeholder-omega-400 border-accent focus:ring-accent-500" placeholder="Last Name" required>
+                                </div>
+                                <!--customer email-->
+                                <div class ="flex items-center">
+                                    <input type="text" name="email" autocomplete="email" class="block w-full border-0 py-3 px-4 border-b bg-omega-700/20 placeholder-omega-400 border-accent focus:ring-accent-500" placeholder="Email Address" required>
+                                </div>
+                                <!--customer company name-->
+                                <div class ="flex items-center">
+                                    <input type="text" name="company" autocomplete="company" class="block w-full border-0 py-3 px-4 border-b bg-omega-700/20 placeholder-omega-400 border-accent focus:ring-accent-500" placeholder="Company Name" required>
+                                </div>
+                                <!--customer phone number-->
+                                <div class ="flex items-center">
+                                    <input type="text" name="phone" autocomplete="phone" class="block w-full border-0 py-3 px-4 border-b bg-omega-700/20 placeholder-omega-400 border-accent focus:ring-accent-500" placeholder="Phone Number">
+                                </div>
+                                <!--customer location-->
+                                <div class ="flex items-center">
+                                    <select id="state" name="state" autocomplete="state-name" class="block w-full border-0 py-3 px-4 border-b bg-omega-700/20 placeholder-omega-400 border-accent focus:ring-accent-500" type="select" options="[Object Object], [Object Object], [Object Object], [Object Object]">
+                                        <!--dropdown selector options, four [object object] means four possible selectors-->
+                                        <option class="text-black" value disabled>Select Country</option>
+                                        <option class="text-black" value="United States">United States</option>
+                                        <option class="text-black" value="Canada">Canada</option>
+                                        <option class="text-black" value="Ireland">Ireland</option>
+                                    </select>
+                                </div>    
+                        </fieldset>
+
+                        <!--subsection for checkboxes: what services are needed -->   
+                        <fieldset class="contactFormServices border-b border-dashed border-omega-700">
+                                <div class=""></div>
+                        </fieldset>
+
+                        <!--subsection for radial buttons: budget -->
+                        <fieldset class="contactFormBudget border-b border-dashed border-omega-700">
+
+                        </fieldset>
+
+                        <!--subsection for the text box: description -->
+                        <fieldset class="contactFormDescription border-b border-dashed border-omega-700">
+
+                        </fieldset>
+                    </div>
+
+
+                </fieldset>
+
+            
+            <!--submit button -->
+            </div>
+
+
+
+
 
         <!-- nested in three blocks (thin line with logo for chat/gps/phone)
-        phone, email, linkedin, github-->
+        phone, email, linkedin, github
+    
+            HTML form with a minimum of:
+        1 fieldset 
+            3 inputs 
+                (contract vs employment dropdown
+                how did you hear about me? dropdown
+                ,state dropdown)
+            2 text    
+                (first name, last name, email address, company name, phone number)
+  -->
+
+
+
         <div class ="contactchat">
             <h2>Chat to us</h2>
         </div>
