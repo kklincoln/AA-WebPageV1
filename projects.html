@@ -1,14 +1,86 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <h1>Projects</h1>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="layout.css">
+        <title>Kiernan Lincoln's Projects</title>    
     </head>
 
     <body>
+        
+<!--code to be inserted for navbar-->
+<div class="topnav">
+    <a class="active" href ="#home">HOME</a>
+    <a href="#about">ABOUT</a>   
+    <a href="#services">SERVICES</a>   
+    <a href="#articles">ARTICLES</a>
+    <a href="#projects">PROJECTS</a>
+    <a href="#contact">CONTACT</a>
+</div>
+    <div class="col-span-1 row-span-2 mb-6 md:m-0">
+    <!--div is for the left "block" that includes all of the service summaries, basically if the page was divided into three vertical blocks-->
+        <div class="md:transition-all md:duration-1000 prose prose-invert" style="transition-delay:200ms;">
+        <!--this div class is the section that is tightly enclosing the services from header to free price quote button-->    
+            <div class="mx-3 -mt-3 md:m-0">
+            <!--this div is the services block on top vertically-->
+                <div class="bg-gradient-to-b from-omega-800 to-omega-800 p-6 pb-2 md:bg-none md:p-0">
+                <!--this div just makes the headers "float" in the center of the box-->
+                    <h1>
+                        <em>My Open-Source Projects</em>
+                    </h1>
+                    <P>Take a look at some of my open-source projects on Github as well as some user-reviewed apps.</P>
+                </div>
+            </div>
+
+<!--Code below for the three tiles at the top for github project links-->
+            <div class ="mt-4 grid grid-cols-fluid gap-4 [--tw-fluid-col-min:15rem] md:mt-12 md:gap-6">
+                <div class="md:transition-all md:duration-1000">
+                    <a href="https://github.com/kklincoln/" aria-label="kklincoln" target="_blank" rel="noreferrer noopener" class="group prose flex h-full flex-col no-underline bg-gradient-to-br from-alpha-100 via-alpha to-beta">
+                        <div class="p-4 md:p-6">
+                            <h4 class="text-accent">KKLincoln/WebPage-V1</h4>
+                            <div>✨  My page built with HTML, CSS, and JavaScript</div>
+                        </div>
+                        <div class="mt-auto flex justify-between px-4 py-3 font-mono font-bold md:px-6 border-t border-beta bg-white group-hover:bg-gradient-omega-900 border-b border-b-transparent transition-colors duration-300 group-hover:border-b-omega-800 group-hover:text-white">
+                            <Div class="flex items-center">TypeScript</Div>
+                            <Div class="flex items-center">favorite logo and count</Div>
+                            <Div class="flex items-center">share logo and count</Div>
+                        </div>
+                    </a>
+                </div>
+                <div class="md:transition-all md:duration-1000" style="transition-delay: 100ms;">
+                    <a href="https://github.com/kklincoln/" aria-label="kklincoln" target="_blank" rel="noreferrer noopener" class="group prose flex h-full flex-col no-underline bg-gradient-to-br from-alpha-100 via-alpha to-beta">
+                        <div class="p-4 md:p-6">
+                            <h4 class="text-accent">KKLincoln/project2</h4>
+                            <div>✨  My page built </div>
+                        </div>
+                        <div class="mt-auto flex justify-between px-4 py-3 font-mono font-bold md:px-6 border-t border-beta bg-white group-hover:bg-gradient-omega-900 border-b border-b-transparent transition-colors duration-300 group-hover:border-b-omega-800 group-hover:text-white">
+                            <Div class="flex items-center">language</Div>
+                            <Div class="flex items-center">favorite logo and count</Div>
+                            <Div class="flex items-center">share logo and count</Div>
+                        </div>
+                    </a>
+                </div>
+                <div class="md:transition-all md:duration-1000" style="transition-delay: 200ms;">
+                    <a href="https://github.com/kklincoln/" aria-label="kklincoln" target="_blank" rel="noreferrer noopener" class="group prose flex h-full flex-col no-underline bg-gradient-to-br from-alpha-100 via-alpha to-beta">
+                        <div class="p-4 md:p-6">
+                            <h4 class="text-accent">KKLincoln/project3</h4>
+                            <div>✨  My page built with </div>
+                        </div>
+                        <div class="mt-auto flex justify-between px-4 py-3 font-mono font-bold md:px-6 border-t border-beta bg-white group-hover:bg-gradient-omega-900 border-b border-b-transparent transition-colors duration-300 group-hover:border-b-omega-800 group-hover:text-white">
+                            <Div class="flex items-center">language</Div>
+                            <Div class="flex items-center">favorite logo and count</Div>
+                            <Div class="flex items-center">share logo and count</Div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+<!--border from the above three tiles-->
+            <div class="my-6 md:my-12"></div>
+            
+
+
         <!--/*-- Projects business dev analytics/BI/SWE  ---*/
         Page 3
-        Navigation Bar linking to all 4 pages
-        1 header using H1
         1 ordered or unordered list of links to 5 other websites
         /*-- digital products (lightroom, budget tracker, )--*/
   
@@ -21,9 +93,6 @@
         - application design for finance startup: description, technologies (svelte, tailwind css, prisma), duration, role(accessibility)
         - brand refresh for saas cloud platform app: technologies (next.js, tailwind css, graphql), role admin panel design, duration 14wk
         - case studies website research, ux case study, etc. 
-
-        testimonials: CSS Block, name, job title, and exerpt from performance evals, 
-        companie tiles underneath 
     -->
     </body>
 </html>

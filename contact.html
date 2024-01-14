@@ -13,7 +13,7 @@
 
     <body>
         <P>
-            In search of a Data Analyst, Software Developer, or just want to connect? Feel free to reach out!
+            Have you been thinking of a new business venture you'd like help creating, have a problem you need to solve, or in search of a Data Analyst, Software Developer? Feel free to reach out!
             </br>
             </br>
             Please use the form on this page or get in touch through the methods listed below.
@@ -39,38 +39,34 @@
 
             <!--First quadrant of the form, groups the customer information together-->
                 <fieldset class="border-b border-dashed border-omega-700">
-                    <!--first quadrant subsection for the forms legend-->
-                    <div class="bg-omega-800 p-5">
-                        <legend class="m-0 p-0">Your Contact Information</legend>
-                    </div>
-                    
+                    <div class="bg-omega-800 p-5"> <legend class="m-0 p-0">Your Contact Information</legend></div>                
                     <!--first quadrant subection for the customer input-->
                     <div class="contactFormCustomer grid gap-2 p-5 md:grid-cols-3">
                         <!--subsection for text boxes: customer information -->
                         <fieldset class="contactFormCustomerInfo">
                                 <!--customer first name-->
-                                <div class ="flex items-center">
+                                <div class ="contactFormCustomerInfoFirstName flex items-center">
                                     <input type ="text" name="first-name" autocomplate="given-name" class="block w-full border-0 py-3 px-4 border-b bg-omega-700/20 placeholder-omega-400 border-accent focus:ring-accent-500" placeholder="First name" required> 
                                 </div>
                                 <!--customer last name-->
-                                <div class ="flex items-center">
+                                <div class ="contactFormCustomerInfoLastName flex items-center">
                                     <input type="text" name="last-name" autocomplete="family-name" class="block w-full border-0 py-3 px-4 border-b bg-omega-700/20 placeholder-omega-400 border-accent focus:ring-accent-500" placeholder="Last Name" required>
                                 </div>
                                 <!--customer email-->
-                                <div class ="flex items-center">
+                                <div class ="contactFormCustomerInfoEmail flex items-center">
                                     <input type="text" name="email" autocomplete="email" class="block w-full border-0 py-3 px-4 border-b bg-omega-700/20 placeholder-omega-400 border-accent focus:ring-accent-500" placeholder="Email Address" required>
                                 </div>
                                 <!--customer company name-->
-                                <div class ="flex items-center">
+                                <div class ="contactFormCustomerInfoCompany flex items-center">
                                     <input type="text" name="company" autocomplete="company" class="block w-full border-0 py-3 px-4 border-b bg-omega-700/20 placeholder-omega-400 border-accent focus:ring-accent-500" placeholder="Company Name" required>
                                 </div>
                                 <!--customer phone number-->
-                                <div class ="flex items-center">
+                                <div class ="contactFormCustomerInfoPhone flex items-center">
                                     <input type="text" name="phone" autocomplete="phone" class="block w-full border-0 py-3 px-4 border-b bg-omega-700/20 placeholder-omega-400 border-accent focus:ring-accent-500" placeholder="Phone Number">
                                 </div>
                                 <!--customer location-->
-                                <div class ="flex items-center">
-                                    <select id="state" name="state" autocomplete="state-name" class="block w-full border-0 py-3 px-4 border-b bg-omega-700/20 placeholder-omega-400 border-accent focus:ring-accent-500" type="select" options="[Object Object], [Object Object], [Object Object], [Object Object]">
+                                <div class ="contactFormCustomerInfoCountry flex items-center">
+                                    <select id="Country" name="Country" autocomplete="country-name" class="block w-full border-0 py-3 px-4 border-b bg-omega-700/20 placeholder-omega-400 border-accent focus:ring-accent-500" type="select" options="[Object Object], [Object Object], [Object Object], [Object Object]">
                                         <!--dropdown selector options, four [object object] means four possible selectors-->
                                         <option class="text-black" value disabled>Select Country</option>
                                         <option class="text-black" value="United States">United States</option>
@@ -82,69 +78,69 @@
 
                         <!--subsection for checkboxes: what services are needed -->   
                         <fieldset class="contactFormServices border-b border-dashed border-omega-700">
-                                <div class=""></div>
+                                <div class="bg-omega-800 p-5"><legend class="m-0 p-0">What services do you need for your project?</legend> </div>
+                                <div class="grid gap-2 p-5 md:grid-cols-3">
+                                    <div class="contactFormServicesWebDev flex items-center">
+                                        <input name="project-type[Website Development]" type="checkbox" class="h-6 w-6 border-omega-300 text-accent-600 focus:ring-accent-500" value>
+                                        <label class="ml-3 block">Website Development</label>
+                                    </div>
+                                    <div class="contactFormServicesAppDev flex items-center">
+                                        <input name="project-type[App Development]" type="checkbox" class="h-6 w-6 border-omega-300 text-accent-600 focus:ring-accent-500" value>
+                                        <label class="ml-3 block">App Development</label>
+                                    </div>
+                                    <div class="contactFormServicesDesignSystem flex items-center">
+                                        <input name="project-type[Design System]" type="checkbox" class="h-6 w-6 border-omega-300 text-accent-600 focus:ring-accent-500" value>
+                                        <label class="ml-3 block">Design System</label>
+                                    </div>
+                                    <div class="contactFormServicesEcomm flex items-center">
+                                        <input name="project-type[E-Commerce Site]" type="checkbox" class="h-6 w-6 border-omega-300 text-accent-600 focus:ring-accent-500" value>
+                                        <label class="ml-3 block">E-Commerce Site</label>
+                                    </div>
+                                    <div class="contactFormServicesPerformanceEval flex items-center">
+                                        <input name="project-type[Performance Evaluation]" type="checkbox" class="h-6 w-6 border-omega-300 text-accent-600 focus:ring-accent-500" value>
+                                        <label class="ml-3 block">Performance Evaluation</label>
+                                    </div>
+                                    <div class="contactFormServicesBIReporting flex items-center">
+                                        <input name="project-type[BI Reporting]" type="checkbox" class="h-6 w-6 border-omega-300 text-accent-600 focus:ring-accent-500" value>
+                                        <label class="ml-3 block">BI Reporting</label>
+                                    </div>
+                                </div>
                         </fieldset>
 
                         <!--subsection for radial buttons: budget -->
                         <fieldset class="contactFormBudget border-b border-dashed border-omega-700">
-
+                            <div class="contactFormBudgetLegend bg-omega-800 p-5"><legend class="m-0 p-0">How much is the anticipated budget?</legend></div>
+                            <div class="ContactFormBudgetUnder2k grid gap-2 p-5 md:grid-cols-3">
+                                <div class="flex items-center">
+                                    <input name="budget" type="radio" class="h-6 w-6 border-omega-300 text-accent-600 focus:ring-accent-500" value="Less than $2,000"><label class="ml-3 block">Less than $2,000</label>
+                                </div>
+                                <div class="contactFormBudget2k-10k flex items-center">
+                                    <input name="budget" type="radio" class="h-6 w-6 border-omega-300 text-accent-600 focus:ring-accent-500" value="$2,000 - $10,000"><label class="ml-3 block">$2,000 - $10,000</label>
+                                </div>
+                                <div class="contactFormBudgetAbove10k flex items-center">
+                                    <input name="budget" type="radio" class="h-6 w-6 border-omega-300 text-accent-600 focus:ring-accent-500" value="More than $10,000"><label class="ml-3 block">More than $10,000</label>
+                                </div>
+                            </div>
                         </fieldset>
 
                         <!--subsection for the text box: description -->
                         <fieldset class="contactFormDescription border-b border-dashed border-omega-700">
-
+                        <div class="contactFormDescriptionlegend bg-omega-800 p-5"><legend class="m-0 p-0">Please provide details about your requested project below</legend></div>
+                        <div class="contactFormsDescriptionInput flex items-center">
+                            <textarea type="textarea" class="block w-full border-0 bg-omega-700/2 placeholder-omega-400 border-accent focus:ring-accent-500" placeholder="Project description" rows="6"></textarea>
+                        </div>
                         </fieldset>
                     </div>
-
-
                 </fieldset>
-
-            
+           
             <!--submit button -->
+                <div class="bg-omega-900 px-4 pt-6 pb-8 text-left md:px-8">
+                    <button class="relative inline-flex items-center justify-center leading-normal no-underline group cursor-pointer select-none focus:outline-none peer md:peer-even:ml-6 w-full sm:w-1/3" type="submit">
+                        <div class="z-10 h-full w-full border-4 border-transparent group-active:border-alpha flex transform-gpu transition-transform not-prose font-mono py-3 px-6 text-sm hover:translate-x-2 hover:translate-y-2 bg-white text-black">
+                            <span class="mx-auto">Submit</span>
+                        </div>
+                    </button>
+                </div>
             </div>
-
-
-
-
-
-        <!-- nested in three blocks (thin line with logo for chat/gps/phone)
-        phone, email, linkedin, github
-    
-            HTML form with a minimum of:
-        1 fieldset 
-            3 inputs 
-                (contract vs employment dropdown
-                how did you hear about me? dropdown
-                ,state dropdown)
-            2 text    
-                (first name, last name, email address, company name, phone number)
-  -->
-
-
-
-        <div class ="contactchat">
-            <h2>Chat to us</h2>
-        </div>
-
-        <div class="contactvisit">
-            <h2>Visit us</h2>
-        </div>
-
-        <div class="contactcall">
-            <h2>Call us</h2>
-        </div>
-
-<!--map inserted for locaation-->
-
-
-<!-- contact box block
-    Got ideas? We've got the skills, let's team up! Tell us more about yourself and what you have in mind.
-first name, last name, email, company, phone number, location,
-subject, message, send button (option two below)
-check boxes: 
-what services do you need for your project?: checkbox (web dev, app dev, design system, website migration, e-comm site, performance eval)
-how much is the anticipated budget?: Radial (less than 2,000, 2-10k, 10k+)
-tell me about the project: text box and submit button with underlay shadow effect
--->
     </body>
 </html>
