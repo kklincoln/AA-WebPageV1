@@ -1,30 +1,192 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <h1>
-            Resume
-        </h1>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="layout.css">
+        <title>Kiernan Lincoln's Resume</title>    
     </head>    
 
     <body>
       <!--similar to Peter McKninnon's page, clear-cut sections within scroll.
          /*-- resume page --*/
-        Navigation Bar linking to all 4 pages
-        1 header using H1
-        1 ordered or unordered list of links to 5 other websites
-
         add:
         testimonials: CSS Block, name, job title, and exerpt from performance evals, 
-        companie tiles underneath 
+        company tiles underneath 
         ------>
-        <div class="topnav">
-            <a class="active" href ="#home">HOME</a>
-            <a href="#about">ABOUT</a>   
-            <a href="#services">SERVICES</a>   
-            <a href="#articles">ARTICLES</a>
-            <a href="#projects">PROJECTS</a>
-            <a href="#contact">CONTACT</a>
+<!--================================
+        PRELOADER START
+    =================================-->
+
+    <div
+      class="preloader"
+      style="
+        translate: none;
+        rotate: none;
+        scale: none;
+        tranform: translate(0px, -1500 px);
+        display: none;
+        z-index: -1;
+      "
+    >
+      <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+        <path id="svg" d="M0 2S175 1 500 1s500 1 500 1V0H0Z"></path>
+      </svg>
+      <h5
+        class="preloader-text"
+        style="
+          translate: none;
+          rotate: none;
+          scale: none;
+          opacity: 0;
+          transform: translate(-50%, -50%) translate(0px, -100px);
+        "
+      >
+        Loading
+      </h5>
+    </div>
+
+    <!--================================
+        PRELOADER END
+    =================================-->
+    <!--================================
+        MENU START
+    =================================-->
+
+    <nav class="navbar navbar-expand-lg main_Menu">
+      <div class="container main_Menu_Bg">
+        <a class="navbar-Brand" href="index.html">
+          <img
+            src="images/Kiernan-Logo.jpg"
+            alt="KIERNAN"
+            class="img-fluid w-100" width="100">
+        </a>
+        <button class="navbar-Toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-sharp fa-regular fa-bars bar_icon"></i>
+            <i class="fa-regular fa-xmark close_icon"></i>
+        </button>
+        <div class="collapse navbar-Collapse" id="navbarNav">
+            <ul class="navbar-nav m-auto">
+                <li class="nav-item">
+                  <a class="nav-link text_hover_animaiton active" href="#">
+                    <div style="position:relative;display:inline-block;" class="menu-text">
+                        <div style="position:relative;display:inline-block;">H</div>
+                        <div style="position:relative;display:inline-block;">o</div>
+                        <div style="position:relative;display:inline-block;">m</div>
+                        <div style="position:relative;display:inline-block;">e</div>
+                    </div> 
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text_hover_animaiton" href="about.html">
+                    <div style="position:relative;display:inline-block;" class="menu-text">
+                        <div style="position:relative;display:inline-block;">a</div>
+                        <div style="position:relative;display:inline-block;">b</div>
+                        <div style="position:relative;display:inline-block;">o</div>
+                        <div style="position:relative;display:inline-block;">u</div>
+                        <div style="position:relative;display:inline-block;">t</div>
+                    </div> 
+                    </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text_hover_animaiton" href="services.html">
+                    <div style="position:relative;display:inline-block;" class="menu-text">
+                        <div style="position:relative;display:inline-block;">s</div>
+                        <div style="position:relative;display:inline-block;">e</div>
+                        <div style="position:relative;display:inline-block;">r</div>
+                        <div style="position:relative;display:inline-block;">v</div>
+                        <div style="position:relative;display:inline-block;">i</div>
+                        <div style="position:relative;display:inline-block;">c</div>
+                        <div style="position:relative;display:inline-block;">e</div>
+                        <div style="position:relative;display:inline-block;">s</div>
+                    </div> </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text_hover_animaiton" href="projects.html">
+                    <div style="position:relative;display:inline-block;" class="menu-text">
+                        <div style="position:relative;display:inline-block;">P</div>
+                        <div style="position:relative;display:inline-block;">r</div>
+                        <div style="position:relative;display:inline-block;">o</div>
+                        <div style="position:relative;display:inline-block;">j</div>
+                        <div style="position:relative;display:inline-block;">e</div>
+                        <div style="position:relative;display:inline-block;">c</div>
+                        <div style="position:relative;display:inline-block;">t</div>
+                        <div style="position:relative;display:inline-block;">s</div>
+                    </div> </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text_hover_animaiton" href="articles.html">
+                    <div style="position:relative;display:inline-block;" class="menu-text">
+                        <div style="position:relative;display:inline-block;">b</div>
+                        <div style="position:relative;display:inline-block;">l</div>
+                        <div style="position:relative;display:inline-block;">o</div>
+                        <div style="position:relative;display:inline-block;">g</div>
+                    </div> <i class="far fa-angle-down"></i></a>
+                  <ul class="droap_menu">
+                    <li>
+                      <a href="blog_list.html">Blog List</a>
+                    </li>
+                    <li><a href="blog_details.html">Blog Details</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text_hover_animaiton" href="contact.html">
+                    <div style="position:relative;display:inline-block;" class="menu-text">
+                        <div style="position:relative;display:inline-block;">c</div>
+                        <div style="position:relative;display:inline-block;">o</div>
+                        <div style="position:relative;display:inline-block;">n</div>
+                        <div style="position:relative;display:inline-block;">t</div>
+                        <div style="position:relative;display:inline-block;">a</div>
+                        <div style="position:relative;display:inline-block;">c</div>
+                        <div style="position:relative;display:inline-block;">t</div>
+                    </div> </a>
+                </li>
+              </ul>
+              <span class="toggle_icon c-pointer" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                <i class="fa-sharp fa-sharp fa-regular fa-bars bar_icon-staggered">
+                    <!--before-->
+                </i>
+              </span>
         </div>
+      </div>
+    </nav>
+
+                    <!--this is how the hamburger logo looks collapsed-->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight">
+        <div class="offcanvas-header">
+            <a class="offcanvas-logo" href="index_2.html">
+                <img src="images/Kiernan-Logo2.jpg" alt="KIERNAN" class="img-fluid w-100">
+                <button type="button" class="btnNavBurger-close" data-bs-dismiss="offcanvas" aria-label="close">
+                    <i class="fa-regular fa-xmark">
+                        <!--before-->
+                    </i>
+                </button>
+            </a>
+        </div>
+        <div class="offcanvas-body">
+            <div class="tf__design_form offcanvas_form">
+                <div class="offcanvas-content-box">
+                    <h4 class="offcanvas_title">About Me</h4>
+                    <P>With my 8+ years of combined experience between analytics, software engineering, consulting, and data roles, 
+                        we can work together to turn your vision for your business into a reality that can begin to generate return on investment as soon as possible.
+                        Let's schedule some time to work together to go over concepts, implementation options, and roadmaps for development!
+                    </P>
+                </div>
+                <div class="offcanvas_contact_form">
+                    <h4 class="offcanvas_title">Get In Touch</h4>
+                    <form action="#">
+                        <input type = "text" placeholder="Your Name" aria-autocomplete="list">
+                        <input type="email" placeholder="Your Email">
+                        <textarea rows="4" placeholder="Message"></textarea>
+                        <button type="button" class="common_btn">Submit Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+            <!--this is for the hamburger after expanded-->
+            
+<!--================================
+        MENU END
+    =================================-->
 
 <h1>I'm specialized in</h1>
 <h1>insert code to display typing text for each skillset category</h1>

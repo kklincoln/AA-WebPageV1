@@ -1,142 +1,367 @@
-html{
-    --color-alpha: 202 254 0;
-    --color-beta: 34 297 94;
-    --color-accent: 59 130 246;
-    --color-omega: 113 113 122;
-    background: rgb(54,54,54) ;
+.token.atrule {
+  color: #c792ea;
 }
-.body{
-    margin: .67em 0;
-    line-height: inherit;
+.token.attr-name {
+  color: #ffcb6b;
+}
+.token.attr-value,
+.token.attribute {
+  color: #a5e844;
+}
+.token.boolean {
+  color: #c792ea;
+}
+.token.builtin {
+  color: #ffcb6b;
+}
+.token.cdata,
+.token.char {
+  color: #80cbc4;
+}
+.token.class {
+  color: #ffcb6b;
+}
+.token.class-name {
+  color: #f2ff00;
+}
+.token.comment {
+  color: #616161;
+}
+.token.constant {
+  color: #c792ea;
+}
+.token.deleted {
+  color: #f66;
+}
+.token.doctype {
+  color: #616161;
+}
+.token.entity {
+  color: #f66;
+}
+.token.function {
+  color: #c792ea;
+}
+.token.hexcode {
+  color: #f2ff00;
+}
+.token.id,
+.token.important {
+  color: #c792ea;
+  font-weight: 700;
+}
+.token.inserted {
+  color: #80cbc4;
+}
+.token.keyword {
+  color: #c792ea;
+}
+.token.number {
+  color: #fd9170;
+}
+.token.operator {
+  color: #89ddff;
+}
+.token.prolog {
+  color: #616161;
+}
+.token.property {
+  color: #80cbc4;
+}
+.token.pseudo-class,
+.token.pseudo-element {
+  color: #a5e844;
+}
+.token.punctuation {
+  color: #89ddff;
+}
+.token.regex {
+  color: #f2ff00;
+}
+.token.selector {
+  color: #f66;
+}
+.token.string {
+  color: #a5e844;
+}
+.token.symbol {
+  color: #c792ea;
+}
+.token.tag {
+  color: #f66;
+}
+.token.unit {
+  color: #fd9170;
+}
+.token.url,
+.token.variable {
+  color: #f66;
+}
+pre {
+  overflow: auto;
+}
+code {
+  padding: 0.25rem 0.5rem;
+  color: var(--tw-prose-pre-code);
+}
+code,
+pre[class*="language-"] {
+  background: var(--tw-prose-pre-bg);
+}
+pre[class*="language-"] {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    Liberation Mono, Courier New, monospace;
+  font-size: 1rem;
+  line-height: 0.9rem;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  color: #eee;
+  background: #2f2f2f;
+  tab-size: 4;
+  hyphens: none;
+}
+pre[class*="language-"] code[class*="language-"] {
+  white-space: pre-wrap;
+  background-color: transparent;
+}
+pre[class*="language-"] {
+  overflow: auto;
+  position: relative;
+  margin: 0.5em 0;
+  padding: 1.25em 1em;
+}
+/*formatting the code sample appearing on the homepage*/
+code {
+  background: var(--tw-prose-pre-bg);
+}
+
+.highlight-line {
+}
+.code-highlight {
+  float: left;
+  min-width: 100%;
+}
+.code-line {
+  display: block;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: -16px;
+  margin-right: -16px;
+  border-left-width: 4px;
+  border-left-color: rgba(31, 41, 55, 0);
+}
+.code-line.inserted {
+  background-color: rgba(16, 185, 129, 0.2);
+}
+.code-line.deleted {
+  background-color: rgba(239, 68, 68, 0.2);
+}
+.highlight-line {
+  margin-left: -16px;
+  margin-right: -16px;
+  background-color: rgba(55, 65, 81, 0.5);
+  border-left-width: 4px;
+  border-left-color: #3b82f6;
+}
+
+.line-number {
+}
+
+.line-number:before {
+  display: inline-block;
+  width: 1rem;
+  text-align: right;
+  margin-right: 16px;
+  margin-left: -8px;
+  color: rgba(156, 163, 175, 0.3);
+  content: attr(line);
+}
+/* ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com */
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  border: 0 solid #e5e7eb;
+}
+:after,
+:before {
+  --tw-content: "";
+}
+
+html {
+  --color-alpha: 202 254 0;
+  --color-beta: 34 297 94;
+  --color-accent: 59 130 246;
+  --color-omega: 113 113 122;
+  background: rgb(54, 54, 54);
+}
+.body {
+  margin: 0.67em 0;
+  line-height: inherit;
 }
 
 h1 {
-    display: block;
-    margin-top: 0;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-family: futura-pt;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 32 px;
-    letter-spacing: .03929825em;
-    text-transform: none;
-    line-height: .9em;
-    color: #fff;
+  display: block;
+  margin-top: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: futura-pt;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 32 px;
+  letter-spacing: 0.03929825em;
+  text-transform: none;
+  line-height: 0.9em;
+  color: #fff;
 }
 h2 {
-    display: block;
+  display: block;
 }
 
-h1 h2 h3{
-    text-rendering: optimizeLegibility;
-    margin: .67em 0;
+h1 h2 h3 {
+  text-rendering: optimizeLegibility;
+  margin: 0.67em 0;
 }
 /*conditional coding establishing the green headers or gradient coloring*/
-:is(h1,h2,h3,h4,h5,h6)>em {
-    font-style: normal;
-    background-image: linear-gradient(to bottom right,var(--tw-gradient-stops));
-    --tw-gradient-from: rgb(var(--color-alpha)/1);
-    --tw-gradient-to: rgb(var(--color-alpha)/0);
-    --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to);
-    --tw-gradient-to: rgb(var(--color-beta)/1);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+:is(h1, h2, h3, h4, h5, h6) > em {
+  font-style: normal;
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  --tw-gradient-from: rgb(var(--color-alpha) / 1);
+  --tw-gradient-to: rgb(var(--color-alpha) / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: rgb(var(--color-beta) / 1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
-.navbar{
-    font-family: futura-pt;
-    font-weight: 400;
-    font-style: strong;
-    font-size: 17px;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-}
-
-div{
-    display:block;
+.navbar {
+  font-family: futura-pt;
+  font-weight: 400;
+  font-style: strong;
+  font-size: 17px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
-.text-center{
-    text-align: center;
+div {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
 }
 
 /*unordered list coding intended to be used upon navbar coding for veritical orientation*/
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0px;
-    width: 150px;
-    background-color: rgb(24, 24, 27)
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  width: 150px;
+  background-color: rgb(24, 24, 27);
 }
 /*this li a is referencing the NavBar formatting
-click will be block style; white font; text will be adjusted to the right 8px; 
-*/
-li a{  
-    display: block;
-    color:rgb(255 255 255 )  ;
-    padding: 8px;   
-    text-decoration: none;
+  click will be block style; white font; text will be adjusted to the right 8px; */
+
+li a {
+  display: block;
+  color: rgb(255 255 255);
+  padding: 8px;
+  text-decoration: none;
 }
 /*change link color on hover for navbar li a*/
-li a:hover{
-    background-color: rgb(05,25,255);
+li a:hover {
+  background-color: rgb(05, 25, 255);
 }
 
 /*this controls the time taken to display the hovered navbar item description
-, e.g.: hover over house icon to show "home", briefcase to show "Projects", envelope for "contact"*/
-.duration-300{
-    transition-duration: .43s;
+  , e.g.: hover over house icon to show "home", briefcase to show "Projects", envelope for "contact"*/
+.duration-300 {
+  transition-duration: 0.43s;
 }
 
 /*transition properties for the nav buttons;
-transition property all means all effects (shrink, shade, squish) happen at once
-cuubic-bezier does a squish then compress effect*/
-.transition-all{
-    transition-property: all;
-    transition-timing-function: cubic-bezier(.4,0,.2,1);
-    transition-duration: .15s;
+  transition property all means all effects (shrink, shade, squish) happen at once
+  cuubic-bezier does a squish then compress effect*/
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.15s;
 }
 
-
-/*formatting the code sample appearing on the homepage*/
-code{
-    background: var(--tw-prose-pre-bg);
+.prose-invert {
+  --tw-prose-body: var(--tw-prose-invert-body);
+  --tw-prose-headings: var(--tw-prose-invert-headings);
+  --tw-prose-lead: var(--tw-prose-invert-lead);
+  --tw-prose-links: var(--tw-prose-invert-links);
+  --tw-prose-bold: var(--tw-prose-invert-bold);
+  --tw-prose-counters: var(--tw-prose-invert-counters);
+  --tw-prose-bullets: var(--tw-prose-invert-bullets);
+  --tw-prose-hr: var(--tw-prose-invert-hr);
+  --tw-prose-quotes: var(--tw-prose-invert-quotes);
+  --tw-prose-quote-borders: var(--tw-prose-invert-quote-borders);
+  --tw-prose-captions: var(--tw-prose-invert-captions);
+  --tw-prose-code: var(--tw-prose-invert-code);
+  --tw-prose-pre-code: var(--tw-prose-invert-pre-code);
+  --tw-prose-pre-bg: var(--tw-prose-invert-pre-bg);
+  --tw-prose-th-borders: var(--tw-prose-invert-th-borders);
+  --tw-prose-td-borders: var(--tw-prose-invert-td-borders);
+}
+.prose {
+  --tw-prose-body: #374151;
+  --tw-prose-headings: #111827;
+  --tw-prose-lead: #4b5563;
+  --tw-prose-links: #111827;
+  --tw-prose-bold: #111827;
+  --tw-prose-counters: #6b7280;
+  --tw-prose-bullets: #d1d5db;
+  --tw-prose-hr: #e5e7eb;
+  --tw-prose-quotes: #111827;
+  --tw-prose-quote-borders: #e5e7eb;
+  --tw-prose-captions: #6b7280;
+  --tw-prose-code: #111827;
+  --tw-prose-pre-code: #e5e7eb;
+  --tw-prose-pre-bg: #1f2937;
+  --tw-prose-th-borders: #d1d5db;
+  --tw-prose-td-borders: #e5e7eb;
+  --tw-prose-invert-body: #d1d5db;
+  --tw-prose-invert-headings: #fff;
+  --tw-prose-invert-lead: #9ca3af;
+  --tw-prose-invert-links: #fff;
+  --tw-prose-invert-bold: #fff;
+  --tw-prose-invert-counters: #9ca3af;
+  --tw-prose-invert-bullets: #4b5563;
+  --tw-prose-invert-hr: #374151;
+  --tw-prose-invert-quotes: #f3f4f6;
+  --tw-prose-invert-quote-borders: #374151;
+  --tw-prose-invert-captions: #9ca3af;
+  --tw-prose-invert-code: #fff;
+  --tw-prose-invert-pre-code: #d1d5db;
+  --tw-prose-invert-pre-bg: rgba(0, 0, 0, 0.5);
+  --tw-prose-invert-th-borders: #4b5563;
+  --tw-prose-invert-td-borders: #374151;
+  font-size: 1rem;
+  line-height: 1.375;
 }
 
-.code-highlight{
-
-}
-.code-line{
-    display:block;
-    padding-left: 14px;
-    padding-right: 14px;
-    margin-left: -14px;
-    margin-right: -14px;
-    border-left-width: 4px;
-    border-left-color: rgba(31, 41, 55, 0)
+.prose {
+  color: var(--tw-prose-body);
+  max-width: inherit;
 }
 
-.line-number{
-
+/* to be used for the standard navbar tile colors, black,white */
+text .to-alpha {
+  --tw-gradient-to: rgb(var(--color-alpha) / 1);
 }
 
-.highlight-line{
-
+/* to be used for the selected navbar tile colors, green, black */
+text .from-beta {
+  --tw-gradient-from: rgb(var(--color-beta) / 1);
+  --tw-gradient-to: rgb(var(--color-beta) / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
-
-code[class*=language-], pre[class*=language-] {
-    text-align: left;
-    white-space: pre;
-    word-spacing:normal;
-    word-break:normal;
-    word-wrap:normal;
-    color: #eee;
-    background: #2f2f2f;
-    font-family: roboto mono, monospace;
-    font-size: 1em;
-    line-height: 1.5em;
-    tab-size:4; 
-    hyphens: none;
-}
-
