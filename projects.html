@@ -10,34 +10,66 @@
    <!--================================
         PRELOADER START
     =================================-->
-
-    <div
-      class="preloader"
-      style="
-        translate: none;
-        rotate: none;
-        scale: none;
-        tranform: translate(0px, -1500 px);
-        display: none;
-        z-index: -1;
-      "
-    >
-      <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
-        <path id="svg" d="M0 2S175 1 500 1s500 1 500 1V0H0Z"></path>
-      </svg>
-      <h5
-        class="preloader-text"
-        style="
-          translate: none;
-          rotate: none;
-          scale: none;
-          opacity: 0;
-          transform: translate(-50%, -50%) translate(0px, -100px);
-        "
-      >
-        Loading
-      </h5>
-    </div>
+<!--popup for project1-->
+        <div class="mfp-wrap mfp-close-btn-in mfp-auto-cursor mfp-fade zyan-popup mfp-ready" tbindex="-1" style="top:5296px; position:absolute; height:1644px;">
+            ::before
+            <div class="mfp-container mfp-s-ready mfp-inline-holder">
+                <div class="mfp-content"><!--popup to be used for projects, github descriptions-->
+                    <div class="mfp-fade" id="details-popup">
+                        <div class="content">
+                            <div class="img"><!--img block of popup 50% of window"-->
+                                <img src="images/project1screengrab.png" alt="project1screengrab">
+                            </div>
+                            <div class="des"><!--description of project, other 50%"-->
+                                <span class="category">Portfolio Project</span>
+                                <h4 class="popup_title">Web Application</h4>
+                                <p>This initial web page was developed at the beginning of the App Academy Software Developer curriculum.
+                                    Initial iterations were developed using HTML5, CSS, and JavaScript. Iterations to follow implemented new technolgoies.
+                                </p>
+                                <div class="details_quot_text">
+                                    <p>Take a look at some of my open-source projects on Github as well as some user-reviewed apps.
+                                        These are optimized for both web and mobile usage, but we can work together for a tailored package that suits your needs.
+                                    </p>
+                                    <h4>By: Kiernan Lincoln</h4>
+                                </div>
+                                <p>This project simultaneously serves as a centralized repository for employers and clients to reference my development work, 
+                                    as well as a place for new skills to be tested and implemented as they are learned. 
+                                </p>
+                            </div>
+                            <button title="Close (Esc)" type="button" class="mfp-close">x</button>
+                        </div>
+                    </div>
+                </div>
+<!--preloader-->
+                <div class="preloader"
+                style="
+                    translate: none;
+                    rotate: none;
+                    scale: none;
+                    transform: translate(0px, -1500 px);
+                    display: none;
+                    z-index: -1;
+                "
+                >
+                <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+                    <path id="svg" d="M0 2S175 1 500 1s500 1 500 1V0H0Z"></path>
+                </svg>
+                <h5
+                    class="preloader-text"
+                    style="
+                    translate: none;
+                    rotate: none;
+                    scale: none;
+                    opacity: 0;
+                    transform: translate(-50%, -50%) translate(0px, -100px);
+                    "
+                >
+                    Loading
+                </h5>
+            </div>
+            </div>
+        </div>
+        
 
     <!--================================
         PRELOADER END
@@ -193,202 +225,179 @@
         MENU END
     =================================-->
 
-    <div class="col-span-1 row-span-2 mb-6 md:m-0">
-    <!--div is for the left "block" that includes all of the service summaries, basically if the page was divided into three vertical blocks-->
-        <div class="md:transition-all md:duration-1000 prose prose-invert" style="transition-delay:200ms;">
-        <!--this div class is the section that is tightly enclosing the services from header to free price quote button-->    
-            <div class="mx-3 -mt-3 md:m-0">
-            <!--this div is the services block on top vertically-->
-                <div class="bg-gradient-to-b from-omega-800 to-omega-800 p-6 pb-2 md:bg-none md:p-0">
-                <!--this div just makes the headers "float" in the center of the box-->
-                    <h1>
-                        <em>My Open-Source Projects</em>
-                    </h1>
-                    <P>Take a look at some of my open-source projects on Github as well as some user-reviewed apps.</P>
+  
+<!--================================
+        PROJECTS START
+=================================-->
+
+<section id ="Projects" class="tf__projects tf__project mt_120 xs_mt_80">
+    <div class="container"><!--for the centered container (borders on left/right)-->
+        <div class="row"><!--section for header and headline-->
+            <div class="col-xl-10 col-lg-9 mb_30">
+                <div class="tf__section_heading">
+                    <h5 class="has-animation">
+                        <div class="anim_line" style="display:block; text-align: left; position:relative">
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">M</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">Y</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">P</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">O</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">R</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">T</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">F</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">O</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">L</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">I</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">O</div>
+                        </div>
+                    </h5>
+                    <h2 class="has-animation">
+                        <div class="anim_line" style="display:block; text-align: left; position:relative">
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">B</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">R</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">I</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">N</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">G</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">Y</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">O</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">U</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">R</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">V</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">I</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">S</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">I</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">O</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">N</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">T</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">O</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">L</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">I</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">F</div>   
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">E</div>
+                        </div>
+                        <div class="anim_line" style="display:block; text-align: left; position:relative">
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">W</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">I</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">T</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">H</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">M</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">Y</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">E</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">N</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">G</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">I</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">N</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">E</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">E</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">R</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">I</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">N</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">G</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">E</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">X</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">P</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">E</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">R</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">T</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">I</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">S</div>
+                            <div style="position:relative; display: inline-block; translate:none; rotate:none; scale:none; transform: translate(0px, 0%);" class="anim_char">E</div>
+                        </div>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="row"><!--section for projects grid images-->
+            <div class="col-xl-6 col-sm-6">
+                <a href="#details-popup" class="tf__projects_item" data-cursor="View <br> Project">
+                    <img src="images/project-in-progress-logo.png" alt="projects" class="img-fluid w-100">
+                    <div class="text">
+                        <h4>"Portfolio"</h4>
+                        <p>::before</p>
+                    </div>
+                </a>
+                <div class="mfp-hide"></div>
+                <div class="text">
+                    <h4>Technologies</h4>
+                    <div class="mt-2">
+                        <a class="display: inline-block; uppercase; no-underline;">HTML</a>
+                        <a class="display: inline-block; uppercase; no-underline;">CSS</a>
+                        <a class="display: inline-block; uppercase; no-underline;">JavaScript</a>
+                    </div>
+                    <div class="mt-2">
+                        <div class="basis-1/2 py-2"><dt class="mb-1 font-bold dark:text-accent-400">Duration</dt><dd>3 Weeks</dd></div>
+                        <div class="basis-1/2 py-2"><dt class="mb-1 font-bold dark:text-accent-400">Role</dt><dd>Front-End Software Engineer</dd></div>
+                    </div>
                 </div>
             </div>
 
-<!--Code below for the three tiles at the top for github project links-->
-            <div class ="mt-4 grid grid-cols-fluid gap-4 [--tw-fluid-col-min:15rem] md:mt-12 md:gap-6">
-                <div class="md:transition-all md:duration-1000">
-                    <a href="https://github.com/kklincoln/" aria-label="kklincoln" target="_blank" rel="noreferrer noopener" class="group prose flex h-full flex-col no-underline bg-gradient-to-br from-alpha-100 via-alpha to-beta">
-                        <div class="p-4 md:p-6">
-                            <h4 class="text-accent">KKLincoln/WebPage-V1</h4>
-                            <div>✨  My page built with HTML, CSS, and JavaScript</div>
-                        </div>
-                        <div class="mt-auto flex justify-between px-4 py-3 font-mono font-bold md:px-6 border-t border-beta bg-white group-hover:bg-gradient-omega-900 border-b border-b-transparent transition-colors duration-300 group-hover:border-b-omega-800 group-hover:text-white">
-                            <Div class="flex items-center">TypeScript</Div>
-                            <Div class="flex items-center">favorite logo and count</Div>
-                            <Div class="flex items-center">share logo and count</Div>
-                        </div>
-                    </a>
-                </div>
-                <div class="md:transition-all md:duration-1000" style="transition-delay: 100ms;">
-                    <a href="https://github.com/kklincoln/" aria-label="kklincoln" target="_blank" rel="noreferrer noopener" class="group prose flex h-full flex-col no-underline bg-gradient-to-br from-alpha-100 via-alpha to-beta">
-                        <div class="p-4 md:p-6">
-                            <h4 class="text-accent">KKLincoln/project2</h4>
-                            <div>✨  My page built </div>
-                        </div>
-                        <div class="mt-auto flex justify-between px-4 py-3 font-mono font-bold md:px-6 border-t border-beta bg-white group-hover:bg-gradient-omega-900 border-b border-b-transparent transition-colors duration-300 group-hover:border-b-omega-800 group-hover:text-white">
-                            <Div class="flex items-center">language</Div>
-                            <Div class="flex items-center">favorite logo and count</Div>
-                            <Div class="flex items-center">share logo and count</Div>
-                        </div>
-                    </a>
-                </div>
-                <div class="md:transition-all md:duration-1000" style="transition-delay: 200ms;">
-                    <a href="https://github.com/kklincoln/" aria-label="kklincoln" target="_blank" rel="noreferrer noopener" class="group prose flex h-full flex-col no-underline bg-gradient-to-br from-alpha-100 via-alpha to-beta">
-                        <div class="p-4 md:p-6">
-                            <h4 class="text-accent">KKLincoln/project3</h4>
-                            <div>✨  My page built with </div>
-                        </div>
-                        <div class="mt-auto flex justify-between px-4 py-3 font-mono font-bold md:px-6 border-t border-beta bg-white group-hover:bg-gradient-omega-900 border-b border-b-transparent transition-colors duration-300 group-hover:border-b-omega-800 group-hover:text-white">
-                            <Div class="flex items-center">language</Div>
-                            <Div class="flex items-center">favorite logo and count</Div>
-                            <Div class="flex items-center">share logo and count</Div>
-                        </div>
-                    </a>
+    <!--project 2-->
+            <div class="col-xl-6 col-sm-6">
+                <a href="https://github.com/kklincoln" class="tf__projects_item go_btn" data-cursor="View <br> Project">
+                    <img src="images/project-in-progress-logo.png" alt="projects" class="img-fluid w-100">
+                    <div class="text">
+                        <h4>Project 2</h4>
+                        <p>Languages used</p>
+                    </div>
+                </a>
+                <div class="mfp-hide"></div>
+                <div class="text">
+                    <h4>Technologies</h4>
+                    <div class="mt-2">
+                        <a class="display: inline-block; uppercase; no-underline;">HTML</a>
+                        <a class="display: inline-block; uppercase; no-underline;">CSS</a>
+                        <a class="display: inline-block; uppercase; no-underline;">JavaScript</a>
+                    </div>
+                    <div class="mt-2">
+                        <div class="basis-1/2 py-2"><dt class="mb-1 font-bold dark:text-accent-400">Duration</dt><dd>3 Weeks</dd></div>
+                        <div class="basis-1/2 py-2"><dt class="mb-1 font-bold dark:text-accent-400">Role</dt><dd>Front-End Software Engineer</dd></div>
+                    </div>
                 </div>
             </div>
-<!--border from the above three tiles-->
-            <div class="my-6 md:my-12"></div>
-            <div class="mx-3 -mt-3 md:m-0">
-                <div class="bg-gradient-to-b from-omega-800 to-omega-800 p-6 pb-2 md:bg-none md:p-0">
-                    <h3>Most Recent Projects</h3>
+    <!--project 3-->
+            <div class="col-xl-6 col-sm-6">
+                <a href="https://github.com/kklincoln" class="tf__projects_item go_btn" data-cursor="View <br> Project">
+                    <img src="images/project-in-progress-logo.png" alt="projects" class="img-fluid w-100">
+                    <div class="text">
+                        <h4>Project 3</h4>
+                        <p>Languages used</p>
+                    </div>
+                </a>
+                <div class="mfp-hide"></div>
+                <div class="text">
+                    <h4>Technologies</h4>
+                    <div class="mt-2">
+                        <a class="display: inline-block; uppercase; no-underline;">HTML</a>
+                        <a class="display: inline-block; uppercase; no-underline;">CSS</a>
+                        <a class="display: inline-block; uppercase; no-underline;">JavaScript</a>
+                    </div>
+                    <div class="mt-2">
+                        <div class="basis-1/2 py-2"><dt class="mb-1 font-bold dark:text-accent-400">Duration</dt><dd>3 Weeks</dd></div>
+                        <div class="basis-1/2 py-2"><dt class="mb-1 font-bold dark:text-accent-400">Role</dt><dd>Front-End Software Engineer</dd></div>
+                    </div>
                 </div>
-                <!--divider from the colored line-->
-                <div class="h-px w-full bg-gradient-to-r from-accent via-beta to-alpha md:bg-none"></div>
             </div>
-            <P>I can work with you to create powerful digital products tailored to your needs.</P>
-
-            <div class="mt-4 grid gap-4 md:mt-12 md:gap-6">
-            <!--This is the div container that wraps around all of the project subsections, underneath the single div block for the top three github tiles-->
-                <!--project 1-->
-                <div href="projects/AA-WebPage-V1" aria-label="AA WebPage V1" class="group grid items-center transition-all duration-200 md:grid-cols-2 md:gap-10 dark:bg-gradient-omega-900 prose prose-zinc bg-white dark:prose-invert dark:md:shadow-lg">
-                    <a aria-label="AA WebPage V1" class="not-prose relative block h-80 w-full p-4" href="/projects/AA-WebPage-V1">
-                    <!--IMG screenshot section for representation of the project-->
-
-                    </a>
-                    <div class="p-4 md:p-10 md:p1-0">
-                    <!--description section of the project-->
-                        <div class="h-10"><P>replace this paragraph with img of logo and logo name</P></div>
-                        
-                        <a aria-label="AA WebPage V1" href="/projects/AA-WebPage-V1">
-                            <h4 class="mt-6 transition-colors group-hover:text-accent dark:group-hover:text-alpha">AA WebPage V1</h4>
-                        </a>
-                    
-                        <small class="mt-6 block">
-                            "This initial web page was developed at the beginning of the App Academy Software Developer curriculum."
-                        </small>
-
-                        <div class="mb-2 mt-6 font-bold dark:text-accent-400">Technologies</div>
-                            <div class="mt-2">
-                                <a class="inline-block select-none px-3 py-1 uppercase no-underline bg-beta/10 text-beta hover:bg-beta/20 m-0.5 font-mono text-sm lg:mr-2" href="/tags/HTML"><HTML:5></HTML:5></a>
-                                <a class="inline-block select-none px-3 py-1 uppercase no-underline bg-beta/10 text-beta hover:bg-beta/20 m-0.5 font-mono text-sm lg:mr-2" href="/tags/CSS">CSS</a>
-                            </div>
-                            <dl class="mt-2 flex flex-wrap">
-                                <div class="basis-1/2 py-2"><dt class="mb-1 font-bold dark:text-accent-400">Duration</dt><dd>3 Weeks</dd></div>
-                                <div class="basis-1/2 py-2"><dt class="mb-1 font-bold dark:text-accent-400">Role</dt><dd>Front-End Software Engineer</dd></div>
-                                <div class="basis-1/2 py-2"><dt class="mb-1 font-bold dark:text-accent-400">Technology</dt><dd>HTML5, CSS</dd></div></dl>
+            <div class="col-xl-6 col-sm-6">
+                <a href="https://youtube.com/" class="tf__projects_item play_btn" data-cursor="Watch <br> video">
+                    <img src="images/project-in-progress-logo.png" alt="projects" class="img-fluid w-100">
+                    <div class="text">
+                        <h4>UGC Videography</h4>
+                        <p>Youtube</p>
                     </div>
-                </div>
-
-                <!--project 2-->
-                <div href="projects/insert-project-name-here" aria-label="insert project name" class="group grid items-center transition-all duration-200 md:grid-cols-2 md:gap-10 dark:bg-gradient-omega-900 prose prose-zinc bg-white dark:prose-invert dark:md:shadow-lg">
-                    <a aria-label="Insert project name here" class="not-prose relative block h-80 w-full p-4" href="/projects/insert-project-name-here">
-                    <!--IMG screenshot section for representation of the project-->
-
-                    </a>
-                    <div class="p-4 md:p-10 md:p1-0">
-                    <!--description section of the project-->
-                        <div class="h-10"><P>replace this paragraph with img of logo and logo name</P></div>
-                        
-                        <a aria-label="AA WebPage V1" href="/projects/AA-WebPage-V1">
-                            <h4 class="mt-6 transition-colors group-hover:text-accent dark:group-hover:text-alpha">project name</h4>
-                        </a>
-                    
-                        <small class="mt-6 block">
-                            "replace this with a brief description of the project."
-                        </small>
-
-                        <div class="mb-2 mt-6 font-bold dark:text-accent-400">Technologies</div>
-                            <div class="mt-2">
-                                <a class="inline-block select-none px-3 py-1 uppercase no-underline bg-beta/10 text-beta hover:bg-beta/20 m-0.5 font-mono text-sm lg:mr-2" href="/tags/HTML"><HTML:5></HTML:5></a>
-                                <a class="inline-block select-none px-3 py-1 uppercase no-underline bg-beta/10 text-beta hover:bg-beta/20 m-0.5 font-mono text-sm lg:mr-2" href="/tags/CSS">CSS</a>
-                            </div>
-                            <dl class="mt-2 flex flex-wrap">
-                                <div class="basis-1/2 py-2"><dt class="mb-1 font-bold dark:text-accent-400">Duration</dt><dd>3 Weeks</dd></div>
-                                <div class="basis-1/2 py-2"><dt class="mb-1 font-bold dark:text-accent-400">Role</dt><dd>Front-End Software Engineer</dd></div>
-                                <div class="basis-1/2 py-2"><dt class="mb-1 font-bold dark:text-accent-400">Technology</dt><dd>HTML5, CSS</dd></div></dl>
-                    </div>
-                </div>
-
-                <!--project 3-->
-                <div href="projects/insert-project-name-here" aria-label="insert project name" class="group grid items-center transition-all duration-200 md:grid-cols-2 md:gap-10 dark:bg-gradient-omega-900 prose prose-zinc bg-white dark:prose-invert dark:md:shadow-lg">
-                    <a aria-label="Insert project name here" class="not-prose relative block h-80 w-full p-4" href="/projects/insert-project-name-here">
-                    <!--IMG screenshot section for representation of the project-->
-
-                    </a>
-                    <div class="p-4 md:p-10 md:p1-0">
-                    <!--description section of the project-->
-                        <div class="h-10"><P>replace this paragraph with img of logo and logo name</P></div>
-                        
-                        <a aria-label="AA WebPage V1" href="/projects/AA-WebPage-V1">
-                            <h4 class="mt-6 transition-colors group-hover:text-accent dark:group-hover:text-alpha">project name</h4>
-                        </a>
-                    
-                        <small class="mt-6 block">
-                            "replace this with a brief description of the project."
-                        </small>
-
-                        <div class="mb-2 mt-6 font-bold dark:text-accent-400">Technologies</div>
-                            <div class="mt-2">
-                                <a class="inline-block select-none px-3 py-1 uppercase no-underline bg-beta/10 text-beta hover:bg-beta/20 m-0.5 font-mono text-sm lg:mr-2" href="/tags/HTML"><HTML:5></HTML:5></a>
-                                <a class="inline-block select-none px-3 py-1 uppercase no-underline bg-beta/10 text-beta hover:bg-beta/20 m-0.5 font-mono text-sm lg:mr-2" href="/tags/CSS">CSS</a>
-                            </div>
-                            <dl class="mt-2 flex flex-wrap">
-                                <div class="basis-1/2 py-2"><dt class="mb-1 font-bold dark:text-accent-400">Duration</dt><dd>3 Weeks</dd></div>
-                                <div class="basis-1/2 py-2"><dt class="mb-1 font-bold dark:text-accent-400">Role</dt><dd>Front-End Software Engineer</dd></div>
-                                <div class="basis-1/2 py-2"><dt class="mb-1 font-bold dark:text-accent-400">Technology</dt><dd>HTML5, CSS</dd></div></dl>
-                    </div>
-                </div>
-
-
-                <!--project 4-->
-                <div href="projects/insert-project-name-here" aria-label="insert project name" class="group grid items-center transition-all duration-200 md:grid-cols-2 md:gap-10 dark:bg-gradient-omega-900 prose prose-zinc bg-white dark:prose-invert dark:md:shadow-lg">
-                    <a aria-label="Insert project name here" class="not-prose relative block h-80 w-full p-4" href="/projects/insert-project-name-here">
-                    <!--IMG screenshot section for representation of the project-->
-
-                    </a>
-                    <div class="p-4 md:p-10 md:p1-0">
-                    <!--description section of the project-->
-                        <div class="h-10"><P>replace this paragraph with img of logo and logo name</P></div>
-                        
-                        <a aria-label="AA WebPage V1" href="/projects/AA-WebPage-V1">
-                            <h4 class="mt-6 transition-colors group-hover:text-accent dark:group-hover:text-alpha">project name</h4>
-                        </a>
-                    
-                        <small class="mt-6 block">
-                            "replace this with a brief description of the project."
-                        </small>
-
-                        <div class="mb-2 mt-6 font-bold dark:text-accent-400">Technologies</div>
-                            <div class="mt-2">
-                                <a class="inline-block select-none px-3 py-1 uppercase no-underline bg-beta/10 text-beta hover:bg-beta/20 m-0.5 font-mono text-sm lg:mr-2" href="/tags/HTML"><HTML:5></HTML:5></a>
-                                <a class="inline-block select-none px-3 py-1 uppercase no-underline bg-beta/10 text-beta hover:bg-beta/20 m-0.5 font-mono text-sm lg:mr-2" href="/tags/CSS">CSS</a>
-                            </div>
-                            <dl class="mt-2 flex flex-wrap">
-                                <div class="basis-1/2 py-2"><dt class="mb-1 font-bold dark:text-accent-400">Duration</dt><dd>3 Weeks</dd></div>
-                                <div class="basis-1/2 py-2"><dt class="mb-1 font-bold dark:text-accent-400">Role</dt><dd>Front-End Software Engineer</dd></div>
-                                <div class="basis-1/2 py-2"><dt class="mb-1 font-bold dark:text-accent-400">Technology</dt><dd>HTML5, CSS</dd></div></dl>
-                    </div>
-                </div>
-            
-
+                </a>
             </div>
+        </div>
+
+    </div>
+
+</section>
 
 
 
+
+      
+<!--================================
+        PROJECTS END
+=================================-->
 
         <!--/*-- Projects business dev analytics/BI/SWE  ---*/
         Page 3
