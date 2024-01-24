@@ -2,8 +2,11 @@
 <html>
     <head>
         <meta charset="utf-8">
+
+        <link rel="stylesheet" href="css/spacing.css">
         <link rel="stylesheet" type="text/css" href="layout.css">
-        <title>Contact Kiernan Lincoln</title>
+        <link rel="stylesheet" href="css/responsive.css">
+             <title>Contact Kiernan Lincoln</title>
     </head>
 
     <body>
@@ -204,7 +207,7 @@
                 <!--First Tile-->
                 <div class="col-xl-4 col-md-6 col-lg-4">
                     <div class="tf__contact_text fade_left" data-trigger-id="contact" style="translate: none; rotate: none; scale:none; transform: translate(0px, 0px); opacity: 1;">
-                        <img src="images/phone-logo.png" alt="phone">
+                        <img src="images/phone-logo.png" alt="phone" class="img-fluid w-100" width="100">
                         <h3>Phone</h3>
                         <p>If I am unable to accept your call at the time, please leave a detailed message ensuring a callback number, and I will get back to you as soon as possible.</p>
                         <a href="callto:+17608775865"  rel="nofollow" target="_blank">+1 (760) 877-5865</a>
@@ -213,7 +216,7 @@
                 <!--second Tile-->
                 <div class="col-xl-4 col-md-6 col-lg-4">
                     <div class="tf__contact_text fade_left" data-trigger-id="contact" style="translate: none; rotate: none; scale:none; transform: translate(0px, 0px); opacity: 1;">
-                        <img src="images/linkedin-black-logo.png" alt="LinkedIn">
+                        <img src="images/linkedin-black-logo.png" alt="LinkedIn"  class="img-fluid w-100" width="100">
                         <h3>LinkedIn</h3>
                         <p>Let's connect on LinkedIn, I'm also available for message there!</p>
                         <a href="https://www.linkedin.com/in/kiernan-lincoln/" rel="nofollow" target="_blank">Kiernan Lincoln</a>
@@ -222,7 +225,7 @@
                 <!--third Tile-->
                 <div class="col-xl-4 col-md-6 col-lg-4">
                     <div class="tf__contact_text fade_left" data-trigger-id="contact" style="translate: none; rotate: none; scale:none; transform: translate(0px, 0px); opacity: 1;">
-                        <img src="images/email-logo.png" alt="email" >
+                        <img src="images/email-logo.png" alt="email" class="img-fluid w-100" width="100">
                         <h3>Monday - Sunday</h3>  
                         <p>Please provide the best appropriate response method and time, as well as relevant or necessary reference material with your email.</p>                   
                         <a href="mailto:Kiernan.Lincoln@KiernanLincoln.com" rel="nofollow" target="_blank">Kiernan.Lincoln@KiernanLincoln.com</a> 
@@ -233,34 +236,34 @@
         <div class ="contact_form">
             <div class="row">
             <!--First quadrant of the form, groups the customer information together-->
-                <fieldset class="contactFormCustomerInfo">
-                    <div class="bg-omega-800 p-5"> <legend class="m-0 p-0">Your Contact Information</legend></div>                
+                <fieldset class="contact_form_customer_info">
+                    <div class="contactFormCustomer bg-omega-800 p-5"> <legend class="m-0 p-0">Your Contact Information</legend></div>                
                     <!--first quadrant subection for the customer input-->
                     <div class="contactFormCustomer">
                         <!--subsection for text boxes: customer information -->
-                        <fieldset class="contactFormCustomerInfo">
+                        <fieldset class="contact_form_customer_info">
                                 <!--customer first name-->
-                                <div class ="col-lg-4">
+                                <div class ="contact_form_customer_info">
                                     <input type ="text" name="first-name" autocomplete="given-name"  placeholder="First name" required> 
                                 </div>
                                 <!--customer last name-->
-                                <div class ="col-lg-4">
+                                <div class ="contact_form_customer_info">
                                     <input type="text" name="last-name" autocomplete="family-name" placeholder="Last Name" required>
                                 </div>
                                 <!--customer email-->
-                                <div class ="col-lg-4">
-                                    <input type="text" name="email" autocomplete="email"  placeholder="Email Address" required>
+                                <div class ="contact_form_customer_info">
+                                    <input type="text" name="email" autocomplete="email-address"  placeholder="Email Address" required>
                                 </div>
                                 <!--customer company name-->
-                                <div class ="col-lg-4">
+                                <div class ="contact_form_customer_info">
                                     <input type="text" name="company" autocomplete="company" placeholder="Company Name" required>
                                 </div>
                                 <!--customer phone number-->
-                                <div class ="col-lg-4">
-                                    <input type="text" name="phone" autocomplete="phone"  placeholder="Phone Number">
+                                <div class ="contact_form_customer_info">
+                                    <input type="text" name="phone" autocomplete="phone-number"  placeholder="Phone Number">
                                 </div>
                                 <!--customer location-->
-                                <div class ="col-lg-4">
+                                <div class ="contact_form_customer_info">
                                     <select id="Country" name="Country" autocomplete="country-name"  type="select" options="[Object Object],[Object Object],[Object Object], [Object Object], [Object Object], [Object Object]">
                                         <!--dropdown selector options, four [object object] means four possible selectors-->
                                         <option class="text-black" value disabled>Select Country</option>
@@ -276,29 +279,29 @@
                         <!--subsection for checkboxes: what services are needed -->   
                         <fieldset class="contactFormServices">
                                 <div class="col-lg-4">
-                                    <legend class="m-0 p-0">What services do you need for your project?</legend> </div>
-                                <div class="col-lg-4">
+                                    <legend class="contact_form_legend">What services do you need for your project?</legend> </div>
+                                <div class="contact_form_services_checkboxes">
                                     <div class="col-lg-4">
                                         <input name="project-type[Website Development]" type="checkbox" value>
-                                        <label class="ml-3 block">Website Development</label>
+                                        <label class="contact_form_services_checkboxes">Website Development</label>
                                     </div>
-                                    <div class="col-lg-4">
+                                    <div class="contact_form_services_checkboxes">
                                         <input name="project-type[App Development]" type="checkbox" value>
                                         <label class="ml-3 block">App Development</label>
                                     </div>
-                                    <div class="col-lg-4">
+                                    <div class="contact_form_services_checkboxes">
                                         <input name="project-type[Design System]" type="checkbox"  value>
                                         <label class="ml-3 block">Design System</label>
                                     </div>
-                                    <div class="col-lg-4">
+                                    <div class="contact_form_services_checkboxes">
                                         <input name="project-type[E-Commerce Site]" type="checkbox" value>
                                         <label class="ml-3 block">E-Commerce Site</label>
                                     </div>
-                                    <div class="col-lg-4">
+                                    <div class="contact_form_services_checkboxes">
                                         <input name="project-type[Performance Evaluation]" type="checkbox" value>
                                         <label class="ml-3 block">Performance Evaluation</label>
                                     </div>
-                                    <div class="col-lg-4">
+                                    <div class="contact_form_services_checkboxes">
                                         <input name="project-type[BI Reporting]" type="checkbox"value>
                                         <label class="ml-3 block">BI Reporting</label>
                                     </div>
@@ -307,7 +310,7 @@
         
                         <!--subsection for radial buttons: budget -->
                         <fieldset class="contactFormBudgetInfo">
-                            <div class="col-lg-6"><legend>How much is the anticipated budget?</legend></div>
+                            <div class="contact_form_legend"><legend>How much is the anticipated budget?</legend></div>
                             <div class="ContactFormBudgetUnder2k col-lg-6">
                                 <div class="col-lg-4">
                                     <input name="budget" type="radio"  value="Less than $2,000"><label>Less than $2,000</label>

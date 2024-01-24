@@ -1,0 +1,956 @@
+@media (min-width: 1400px) and (max-width: 1600px) {
+  /*==============================
+          HOME PAGE START
+      ==============================*/
+
+  .main_menu_2 {
+    overflow: auto;
+  }
+  .tf__blog_text ul {
+    gap: 10px;
+  }
+
+  .tf__about_img_2 {
+    width: auto;
+    height: auto;
+  }
+
+  .tf__about_text_2 ul li {
+    margin-top: 60px;
+  }
+
+  .tf__single_service_2 a {
+    padding: 16px 30px;
+  }
+
+  .tf__skills_2 .nav .nav-item button {
+    padding: 15px 30px;
+  }
+
+  .tf__blog_img_2 {
+    height: 240px;
+  }
+
+  .tf__blog_text_2 .title {
+    max-width: 100%;
+  }
+
+  .tf__contact_2_text {
+    padding: 40px;
+  }
+
+  .main {
+    padding-left: 277px;
+    padding-right: 30px;
+  }
+
+  .tf__section_heading h2 {
+    font-size: 48px;
+  }
+
+  /*==============================
+          HOME PAGE END
+      ==============================*/
+}
+
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+  .main_menu_2 {
+    overflow: auto;
+  }
+  .tf__blog_text ul {
+    gap: 10px;
+  }
+
+  /*==============================
+          HOME PAGE START
+      ==============================*/
+  .tf__about_img_2 {
+    width: auto;
+    height: auto;
+  }
+
+  .tf__about_text_2 ul li {
+    margin-top: 60px;
+  }
+
+  .tf__single_service_2 a {
+    padding: 16px 25px;
+  }
+
+  .tf__skills_2 .nav .nav-item button {
+    padding: 15px 35px;
+  }
+
+  .tf__blog_img_2 {
+    height: 240px;
+  }
+
+  .tf__blog_text_2 .title {
+    max-width: 100%;
+  }
+
+  .tf__contact_2_text {
+    padding: 20px;
+  }
+
+  .main {
+    padding-left: 267px;
+    padding-right: 20px;
+  }
+
+  .tf__about_text_2 ul li p {
+    font-size: 14px;
+  }
+
+  .tf__single_service_2 .text {
+    padding: 30px;
+  }
+
+  .tf__contact_2_text p,
+  .tf__contact_2_text a {
+    font-size: 14px;
+  }
+
+  .tf__single_skill_2 {
+    padding: 30px 30px 30px 50px;
+  }
+
+  /*==============================
+            HOME PAGE END
+        ==============================*/
+  /*==============================
+       BLOG DETAILS START
+      ==============================*/
+  .tf__sidebar_item {
+    padding: 30px;
+  }
+
+  .tf__sidebar_comments ul li .text {
+    width: 66%;
+  }
+
+  .tf__sidebar_gallery ul li {
+    width: 92px;
+    height: 92px;
+  }
+
+  .tf__breadcrumb {
+    padding: 220px 0px 120px 0px;
+  }
+
+  /*==============================
+       BLOG DETAILS END
+      ==============================*/
+
+  /*==============================
+       BLOG LIST START
+      ==============================*/
+  .tf__blog_list_img {
+    height: 370px;
+  }
+
+  /*==============================
+       BLOG LIST END
+      ==============================*/
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  /*==============================
+          HOME PAGE START
+      ==============================*/
+  .menu_2_icon {
+    display: flex;
+  }
+
+  .main_menu_2 .logo_2 {
+    padding: 20px 50px;
+  }
+
+  .main_menu_2 ul li a span {
+    width: 50px;
+    height: 50px;
+    line-height: 10px;
+  }
+
+  .main_menu_2 ul li a {
+    font-size: 16px;
+  }
+
+  .main_menu_2 ul {
+    max-height: 635px;
+  }
+
+  .main_menu_2 {
+    left: -250px;
+  }
+
+  .main_menu_2.show_menu {
+    left: 0;
+  }
+
+  .main {
+    padding-left: 0;
+  }
+
+  .tf__banner_text_2 {
+    justify-content: center;
+    padding-bottom: 0;
+  }
+
+  .tf__about_text_2 ul li {
+    margin-top: 70px;
+  }
+
+  .tf__about_img_2 {
+    width: auto;
+    height: auto;
+  }
+
+  .tf__single_service_2 .text {
+    padding: 30px;
+  }
+
+  .tf__single_service_2 a {
+    padding: 15px 30px;
+  }
+
+  .tf__contact_2_text {
+    padding: 30px;
+  }
+
+  /*==============================
+          HOME PAGE END
+      ==============================*/
+
+  /*==============================
+       BLOG DETAILS START
+      ==============================*/
+  .tf__breadcrum_text ul li a {
+    font-size: 16px;
+  }
+
+  .tf__breadcrumb {
+    padding: 195px 0px 100px 0px;
+  }
+
+  .tf__blog_details_img {
+    height: 400px;
+  }
+
+  .tf__input_comment h2 {
+    font-size: 26px;
+  }
+
+  .tf__sidebar_comments ul li .text {
+    width: 63%;
+  }
+
+  .tf__sidebar_gallery ul li {
+    width: 70px;
+    height: 70px;
+  }
+
+  .tf__sidebar_tags ul li a {
+    padding: 10px 16px;
+  }
+
+  .tf__sidebar_item {
+    padding: 30px;
+  }
+
+  .tf__sidebar_comments ul li .img {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+  }
+
+  .tf__sidebar_comments ul li .text {
+    width: 66%;
+  }
+
+  .tf__blog_details_text h2 {
+    font-size: 35px;
+  }
+
+  /*==============================
+       BLOG DETAILS END
+      ==============================*/
+
+  /*==============================
+       BLOG LIST START
+      ==============================*/
+  .tf__blog_list_img {
+    height: 320px;
+  }
+
+  /*==============================
+       BLOG LIST END
+      ==============================*/
+}
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+  /*==============================
+          HOME PAGE START
+      ==============================*/
+  .menu_2_icon {
+    display: flex;
+  }
+
+  .main_menu_2 .logo_2 {
+    padding: 20px 50px;
+  }
+
+  .main_menu_2 ul li a span {
+    width: 50px;
+    height: 50px;
+    line-height: 10px;
+  }
+
+  .main_menu_2 ul li a {
+    font-size: 16px;
+  }
+
+  .main_menu_2 ul {
+    max-height: 635px;
+  }
+
+  .main_menu_2 {
+    left: -250px;
+  }
+
+  .main_menu_2.show_menu {
+    left: 0;
+  }
+
+  .main {
+    padding-left: 0;
+  }
+
+  .tf__banner_2 {
+    height: auto;
+    padding: 70px 0px 105px 0px;
+  }
+
+  .tf__banner_text_2 {
+    padding-bottom: 0;
+  }
+
+  .tf__about_text_2 ul li {
+    margin-top: 70px;
+  }
+
+  .tf__about_text_2 ul li .top .img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .tf__about_img_2 .tf__about_img_text {
+    padding: 15px;
+    top: -30px;
+  }
+
+  .tf__about_img_2 .tf__about_img_text h4 {
+    font-size: 28px;
+  }
+
+  .tf__about_img_2 .tf__about_img_text h4 span {
+    font-size: 16px;
+  }
+
+  .tf__about_img_2::before {
+    width: 150px;
+    height: 150px;
+  }
+
+  .tf__single_service_2:hover .text,
+  .tf__single_service_2.active .text {
+    margin-top: 75px;
+  }
+
+  .tf__single_service_2 a,
+  .tf__single_service_2 a {
+    padding: 16px 30px;
+  }
+
+  .tf__single_service_2:hover a,
+  .tf__single_service_2.active a {
+    bottom: -59px;
+    z-index: 1;
+    display: none;
+  }
+  .tf__single_service_2 .text {
+    margin-top: 75px;
+  }
+  .tf__skills_2 .nav .nav-item button {
+    padding: 15px 30px;
+    font-size: 15px;
+  }
+
+  .progress-wrap {
+    right: 10px;
+    bottom: 10px;
+  }
+
+  .tf__single_skill_2 h2 {
+    font-size: 16px;
+  }
+
+  .tf__portfolio_item .text h4 {
+    font-size: 16px;
+  }
+
+  .tf__portfolio_item .text p {
+    font-size: 14px;
+  }
+
+  .tf__blog_img_2 {
+    height: 280px;
+  }
+
+  .tf__blog_text_2 .title {
+    max-width: 100%;
+  }
+
+  .tf__contact_2_text {
+    padding: 30px;
+  }
+
+  /*==============================
+          HOME PAGE END
+      ==============================*/
+
+  /*==============================
+       BLOG DETAILS START
+      ==============================*/
+  .tf__breadcrum_text h1 {
+    font-size: 32px;
+  }
+
+  .tf__breadcrum_text ul li a {
+    font-size: 16px;
+  }
+
+  .tf__breadcrumb {
+    padding: 165px 0px 90px 0px;
+  }
+
+  .tf__blog_details_img {
+    height: 400px;
+  }
+
+  .tf__input_comment h2 {
+    font-size: 26px;
+  }
+
+  .tf__input_comment {
+    margin-bottom: 25px;
+  }
+
+  .tf__sidebar_comments ul li .text {
+    width: 63%;
+  }
+
+  .tf__sidebar_gallery ul li {
+    width: 76px;
+    height: 76px;
+  }
+
+  .tf__sidebar_tags ul li a {
+    padding: 10px 16px;
+  }
+
+  /*==============================
+       BLOG DETAILS END
+      ==============================*/
+
+  /*==============================
+       BLOG LIST START
+      ==============================*/
+  .tf__pagination {
+    margin-bottom: 50px;
+  }
+
+  /*==============================
+       BLOG LIST END
+      ==============================*/
+
+  /*==============================
+          CONTACT START
+      ==============================*/
+  .tf__contact_map {
+    height: 450px;
+  }
+
+  /*==============================
+          CONTACT END
+      ==============================*/
+}
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+  /*==============================
+          HOME PAGE START
+      ==============================*/
+  .menu_2_icon {
+    display: flex;
+  }
+
+  .main_menu_2 .logo_2 {
+    padding: 20px 50px;
+  }
+
+  .main_menu_2 ul li a span {
+    width: 50px;
+    height: 50px;
+    line-height: 10px;
+  }
+
+  .main_menu_2 ul li a {
+    font-size: 16px;
+  }
+
+  .main_menu_2 ul {
+    max-height: 635px;
+  }
+
+  .main_menu_2 {
+    left: -250px;
+  }
+
+  .main_menu_2.show_menu {
+    left: 0;
+  }
+
+  .main {
+    padding-left: 0;
+  }
+
+  .tf__banner_2 {
+    height: auto;
+    padding: 70px 0px 105px 0px;
+  }
+
+  .tf__banner_text_2 {
+    padding-bottom: 0;
+  }
+
+  .tf__about_text_2 ul li {
+    margin-top: 70px;
+  }
+
+  .tf__about_text_2 ul li .top .img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .tf__about_img_2 .tf__about_img_text {
+    padding: 15px;
+  }
+
+  .tf__about_img_2 .tf__about_img_text h4 {
+    font-size: 28px;
+  }
+
+  .tf__about_img_2 .tf__about_img_text h4 span {
+    font-size: 16px;
+  }
+
+  .tf__about_img_2::before {
+    width: 150px;
+    height: 150px;
+  }
+
+  .tf__single_service_2:hover .text,
+  .tf__single_service_2.active .text {
+    margin-top: 75px;
+  }
+
+  .tf__single_service_2 a,
+  .tf__single_service_2 a {
+    padding: 16px 30px;
+  }
+
+  .tf__single_service_2:hover a,
+  .tf__single_service_2.active a {
+    bottom: -59px;
+    z-index: 1;
+    display: none;
+  }
+  .tf__single_service_2 .text {
+    margin-top: 75px;
+  }
+
+  .tf__single_skill_2 {
+    padding: 20px 20px 20px 50px;
+  }
+
+  .tf__skills_2 .nav .nav-item button {
+    padding: 10px 20px;
+    font-size: 13px;
+    margin: 5px 5px;
+  }
+
+  .progress-wrap {
+    right: 10px;
+    bottom: 10px;
+  }
+
+  .tf__single_skill_2 h2 {
+    font-size: 16px;
+  }
+
+  .tf__portfolio_item .text h4 {
+    font-size: 16px;
+  }
+
+  .tf__portfolio_item .text p {
+    font-size: 14px;
+  }
+
+  /*==============================
+          HOME PAGE END
+      ==============================*/
+
+  /*==============================
+       BLOG DETAILS START
+      ==============================*/
+  .tf__breadcrum_text h1 {
+    font-size: 26px;
+    margin-bottom: 5px;
+  }
+
+  .tf__breadcrum_text ul li a {
+    font-size: 16px;
+  }
+
+  .tf__breadcrumb {
+    padding: 145px 0px 90px 0px;
+  }
+
+  .tf__blog_details_img {
+    height: 300px;
+  }
+
+  .blog_details_header li span {
+    padding: 10px 25px;
+  }
+
+  .tf__blog_details_text h2 {
+    font-size: 34px;
+  }
+
+  .details_blog_share h4 {
+    margin-bottom: 15px;
+  }
+
+  .tf__input_comment h2 {
+    font-size: 26px;
+  }
+
+  .tf__input_comment {
+    margin-bottom: 25px;
+  }
+
+  .tf__sidebar_comments ul li .text {
+    width: 63%;
+  }
+
+  .tf__sidebar_gallery ul li {
+    width: 76px;
+    height: 76px;
+  }
+
+  .tf__sidebar_tags ul li a {
+    padding: 10px 16px;
+  }
+
+  /*==============================
+       BLOG DETAILS END
+      ==============================*/
+
+  /*==============================
+       BLOG LIST START
+      ==============================*/
+  .tf__blog_list_img {
+    height: 280px;
+  }
+
+  .tf__blog_list_text a {
+    font-size: 24px;
+  }
+
+  .tf__pagination {
+    margin-bottom: 50px;
+  }
+
+  /*==============================
+       BLOG LIST END
+      ==============================*/
+
+  /*==============================
+          CONTACT START
+      ==============================*/
+  .tf__contact_form_area h2 {
+    font-size: 36px;
+  }
+
+  .tf__contact_map {
+    height: 350px;
+  }
+
+  /*==============================
+          CONTACT END
+      ==============================*/
+}
+
+@media (max-width: 575.99px) {
+  /*==============================
+          HOME PAGE START
+      ==============================*/
+  .menu_2_icon {
+    display: flex;
+  }
+
+  .main_menu_2 .logo_2 {
+    padding: 20px 50px;
+  }
+
+  .main_menu_2 ul li a span {
+    width: 50px;
+    height: 50px;
+    line-height: 10px;
+  }
+
+  .main_menu_2 ul li a {
+    font-size: 16px;
+  }
+
+  .main_menu_2 ul {
+    max-height: 635px;
+  }
+
+  .main_menu_2 {
+    left: -250px;
+  }
+
+  .main_menu_2.show_menu {
+    left: 0;
+  }
+
+  .main {
+    padding-left: 0;
+  }
+
+  .tf__banner_2 {
+    height: auto;
+    padding: 70px 0px 105px 0px;
+  }
+
+  .tf__banner_text_2 {
+    padding-bottom: 0;
+  }
+
+  .tf__about_text_2 ul li {
+    margin-top: 70px;
+  }
+
+  .tf__about_text_2 ul li .top .img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .tf__about_text_2 ul li .top h3 {
+    font-size: 24px;
+    width: 100%;
+  }
+
+  .tf__about_img_2 .tf__about_img_text {
+    padding: 15px;
+    top: 0;
+  }
+
+  .tf__about_img_2 .tf__about_img_text h4 {
+    font-size: 28px;
+  }
+
+  .tf__about_img_2 .tf__about_img_text h4 span {
+    font-size: 16px;
+  }
+
+  .tf__about_img_2::before {
+    width: 150px;
+    height: 150px;
+  }
+
+  .tf__single_service_2:hover .text,
+  .tf__single_service_2.active .text {
+    margin-top: 75px;
+  }
+
+  .tf__single_service_2 a,
+  .tf__single_service_2 a {
+    padding: 16px 30px;
+  }
+
+  .tf__single_service_2:hover a,
+  .tf__single_service_2.active a {
+    bottom: -59px;
+    z-index: 1;
+    display: none;
+  }
+  .tf__single_service_2 .text {
+    margin-top: 75px;
+  }
+
+  .tf__single_skill_2 {
+    padding: 20px 20px 20px 50px;
+  }
+
+  .tf__skills_2 .nav .nav-item button {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+
+  .tf__blog_img_2 {
+    height: 230px;
+  }
+
+  .tf__blog_text_2 .title {
+    max-width: 100%;
+  }
+
+  .tf__contact_2_text {
+    padding: 20px;
+  }
+
+  .progress-wrap {
+    right: 10px;
+    bottom: 10px;
+  }
+
+  .tf__single_skill_2 h2 {
+    font-size: 16px;
+  }
+
+  /*==============================
+            HOME PAGE END
+        ==============================*/
+  /*==============================
+       BLOG DETAILS START
+      ==============================*/
+  .tf__breadcrum_text h1 {
+    font-size: 26px;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+
+  .tf__breadcrum_text ul li a {
+    font-size: 16px;
+  }
+
+  .tf__breadcrumb {
+    padding: 125px 0px 70px 0px;
+  }
+
+  .tf__blog_details_img {
+    height: 210px;
+  }
+
+  .blog_details_header li span {
+    padding: 10px 25px;
+  }
+
+  .tf__blog_details_text h2 {
+    font-size: 28px;
+  }
+
+  .details_quot_text {
+    padding: 30px;
+  }
+
+  .details_blog_share h4 {
+    margin-bottom: 15px;
+  }
+
+  .details_blog_share .tags {
+    margin-top: 10px;
+  }
+
+  .next_prev_button li a {
+    padding: 10px 0px;
+  }
+
+  .tf__details_bloger {
+    padding: 20px;
+  }
+
+  .tf__input_comment h2 {
+    font-size: 26px;
+  }
+
+  .tf__input_comment {
+    margin-bottom: 25px;
+  }
+
+  .tf__sidebar_item {
+    padding: 25px;
+  }
+
+  .tf__sidebar_comments ul li .img {
+    margin-right: 10px;
+  }
+
+  .tf__sidebar_comments ul li .text {
+    width: 63%;
+  }
+
+  .tf__sidebar_gallery ul li {
+    width: 74px;
+    height: 74px;
+  }
+
+  .tf__sidebar_tags ul li a {
+    padding: 10px 18px;
+  }
+
+  /*==============================
+       BLOG DETAILS END
+      ==============================*/
+
+  /*==============================
+       BLOG LIST START
+      ==============================*/
+  .tf__blog_list_img {
+    height: 220px;
+  }
+
+  .tf__blog_list_img span {
+    padding: 40px 26px;
+  }
+
+  .tf__blog_list_text a {
+    font-size: 22px;
+  }
+
+  .tf__pagination {
+    margin-bottom: 50px;
+  }
+
+  /*==============================
+       BLOG LIST END
+      ==============================*/
+
+  /*==============================
+          CONTACT START
+      ==============================*/
+  .tf__contact_form_area h2 {
+    font-size: 28px;
+  }
+
+  .tf__contact_map {
+    height: 250px;
+  }
+
+  /*==============================
+          CONTACT END
+      ==============================*/
+}
